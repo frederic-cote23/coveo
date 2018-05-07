@@ -2683,12 +2683,7 @@
             "uri": "https://itunes.apple.com/us/app/youtube-music/id1017492454?mt=8&uo=4",
             "appisfree": "true"
         },
-        {
-            "query": "Spotify Music",
-            "title": "Spotify Music",
-            "uri": "https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8&uo=4",
-            "appisfree": "true"
-        },
+
         {
             "query": "Shazam",
             "title": "Shazam",
@@ -2701,24 +2696,14 @@
             "uri": "https://itunes.apple.com/us/app/pandora-music/id284035177?mt=8&uo=4",
             "appisfree": "true"
         },
-        {
-            "query": "Amazon Music",
-            "title": "Amazon Music",
-            "uri": "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
-            "appisfree": "true"
-        },
+
         {
             "query": "Babel -",
             "title": "Babel - Playlist Transfer",
             "uri": "https://itunes.apple.com/us/app/babel-playlist-transfer/id1118140541?mt=8&uo=4",
             "appisfree": "true"
         },
-        {
-            "query": "uSound",
-            "title": "uSound",
-            "uri": "https://itunes.apple.com/us/app/usound/id412551598?mt=8&uo=4",
-            "appisfree": "true"
-        },
+
         {
             "query": "uSound",
             "title": "uSound",
@@ -4197,12 +4182,7 @@
         }
     ],
     "Social Networking": [
-        {
-            "query": "LinkedIn",
-            "title": "LinkedIn",
-            "uri": "https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&uo=4",
-            "appisfree": "true"
-        },
+
         {
             "query": "Blox Amino",
             "title": "Blox Amino",

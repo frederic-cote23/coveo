@@ -225,7 +225,7 @@ function appStore_extractGoodQueries (){
         },
         "I": {
             "mainGenres": "Education",
-            "subGenres": ["Productivity", "Music", "Social Networking", "Games", "Travel", "Shopping"]
+            "subGenres": ["Productivity", "Music", "Social Networking", "Games", "Travel", "Book"]
         },
     }
 

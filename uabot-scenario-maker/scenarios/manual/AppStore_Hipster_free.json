@@ -1,0 +1,859 @@
+{
+    "searchendpoint" : "https://platform.cloud.coveo.com/rest/search/",
+	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
+    "orgName": "fcotetrainingorg",
+	"randomGoodQueries": [ 
+        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
+        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
+        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
+        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+    ],
+	"randomBadQueries": [
+        "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
+        "lyft+free+ride", "uber+mylocation", "google earth+where I am", "siri, what is the mearning of life", "siri, how do I use the search function",
+        "gmes", "mzon", "utub", "whine store", "wal+mart", "solitere", "pocketmon", "twit+ster", "goggle", "pan-door-a", "that music thing my grandson uses to listen to music"
+    ],
+    "allowAnonymousVisits"	: true,
+    "anonymousThreshold" : 1,
+    "timeBetweenVisits": 2,
+    "timeBetweenActions": 1,
+    "pipeline": "default",
+    "randomCustomData": [
+		{
+			"apiname": "context_persona",
+			"values": ["Gamer"]
+        },
+		{
+			"apiname": "context_AppType",
+			"values": ["free"]
+		},
+		{
+			"apiname": "isbot", "values": ["true"]
+		}
+    ],
+	"globalFilter":"@appisfree=true",
+    "scenarios" :[
+        {
+			"name": "Search And Click - Social Networking",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "whatsapp", 
+                         "docClickTitle" : "WhatsApp Messenger", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "WhatsApp Messenger"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Games",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Fortnite", 
+                         "docClickTitle" : "Fortnite", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/fortnite/id1261357853?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Fortnite"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Entertainment",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "PlayStation App", 
+                         "docClickTitle" : "PlayStation App", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/playstation-app/id410896080?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "PlayStation App"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Photos & Video",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "musical.ly", 
+                         "docClickTitle" : "musical.ly", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/musical-ly/id835599320?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "musical.ly"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Utilities",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Bitmoji", 
+                         "docClickTitle" : "Bitmoji", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/bitmoji/id868077558?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Bitmoji"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Education",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "iTunes U", 
+                         "docClickTitle" : "iTunes U", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/itunes-u/id490217893?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "iTunes U"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Productivity",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Best VPN Proxy", 
+                         "docClickTitle" : "Best VPN Proxy Betternet", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/best-vpn-proxy-betternet/id946659216?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Best VPN Proxy Betternet"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Music",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Amazon Music", 
+                         "docClickTitle" : "Amazon Music", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Amazon Music"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Travel",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "trivago", 
+                         "docClickTitle" : "trivago: Compare Hotels & Save", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/trivago-compare-hotels-save/id376888389?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "trivago: Compare Hotels & Save"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Health and Fitness",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Sweatcoin", 
+                         "docClickTitle" : "Sweatcoin - Sweat for Coin", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/sweatcoin-sweat-for-coin/id971023427?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Sweatcoin - Sweat for Coin"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Food & Drink",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "OpenTable", 
+                         "docClickTitle" : "OpenTable", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/opentable/id296581815?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "OpenTable"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Shopping",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "wish", 
+                         "docClickTitle" : "Wish - Shopping Made Fun", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/wish-shopping-made-fun/id530621395?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Wish - Shopping Made Fun"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Finance",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Bank of the West", 
+                         "docClickTitle" : "Bank of the West", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/bank-of-the-west/id947859969?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Bank of the West"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "RANDOM",
+			"weight": 7,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.75
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.75
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.20
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.20
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 6,
+						"probability": 0.05
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 6,
+						"probability": 0.05
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.55
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.10
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.10
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 4,
+						"probability": 0.40
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 4,
+						"probability": 0.40
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 0,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.45
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.10
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.10
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.30
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.30
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+                }
+            ]
+        }
+    ]   
+}

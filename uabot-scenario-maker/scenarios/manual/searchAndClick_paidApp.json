@@ -1391,12 +1391,7 @@
             "uri": "https://itunes.apple.com/us/app/musescore-songbook-sheet-music/id835731296?mt=8&uo=4",
             "appisfree": "false"
         },
-        {
-            "query": "FL Studio",
-            "title": "FL Studio Mobile",
-            "uri": "https://itunes.apple.com/us/app/fl-studio-mobile/id432850619?mt=8&uo=4",
-            "appisfree": "false"
-        },
+
         {
             "query": "Sylo -",
             "title": "Sylo - Any Song. Any Artist.",
@@ -1439,12 +1434,7 @@
             "uri": "https://itunes.apple.com/us/app/relative-pitch-interval-ear-training/id315370958?mt=8&uo=4",
             "appisfree": "false"
         },
-        {
-            "query": "Houdini Playlist",
-            "title": "Houdini Playlist Transfer",
-            "uri": "https://itunes.apple.com/us/app/houdini-playlist-transfer/id1123530435?mt=8&uo=4",
-            "appisfree": "false"
-        },
+
         {
             "query": "YouRepeat ",
             "title": "YouRepeat  -  Video Repeater",

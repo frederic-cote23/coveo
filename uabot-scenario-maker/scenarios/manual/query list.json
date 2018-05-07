@@ -1,0 +1,46 @@
+{
+    "Gamer": [
+"whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
+        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
+        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
+        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight"
+            ],
+
+    "Hipster": [
+"kik", "evony", "plague inc", "line webtoon daily", "procreate pocket", "iMovie", "Facetune", "chrome", "spotify", "lyft", "imovie", "HSBC", "PC Optimum", "Fit Men Cook", "Grubhub", "KetoDiet",
+            "Fitbit", "Hong Kong Travel Guide", "TonalEnergy", "AirDrive", "Google Docs", "SkyView", "Photomath"
+            ],
+
+    "Social Media Addict": [
+"twitter", "rise up", "heads up", "hulu", "lucky cactus grow", "snapchat", "procam","flahslight", "uber", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Google Classroom", "Star Walk", "Dropbox",
+            "Audio Notes", "iMusic", "MuseScore", "Paris Metro", "MyFitnessPal", "HeartWatch", "Uber Eats", "Palate coffee tasting", "Amazon Go", "Union State Bank"
+
+            ],
+
+    "Student": [
+"messenger", "love balls", "terraria", "amazon prime video", "decide now", "instagram", "enlight","my verizon", "pandora", "tinder", "groupon", "Bank of America Mobile", "AliExpress", "whisky app", "Domino's Pizza",
+            "My Macros+", "Lose It!", "Inquire", "AirBnb", "FL Studio", "Todo", "Google Sheets", "Graphing Calculator", "Peak brain", "WineCalc"
+            ],
+
+    "Business Pro": [
+"linkedin", "helix balls", "the game of life", "netflix", "lt.sounds", "Google Photos", "8mm Vintage", "google","Construction Master", "ted", "Toca Life",
+            "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", "Wine Guide", "amazon", "soundcloud", "netflix","TD bank", "calculator", "wolfram"
+            ],
+
+    "Freelancer":[
+"skype", "weave line", "catan classic", "google home", "iLiveThemes", "Vine Camera", "kirakira","gif keyboard","mac id", "khan academy", "PlantSnap","GDrive",
+            "passwords and pins", "shazam","stop&go", "tripAdvisor","speakeasy japanese","headspace","Full Fitness","McDonald's", "wine collection","flipp","rbc mobile", "flipagram"
+            ],
+
+    "All_Good": [
+"games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+            "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+            "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+            ],
+
+    "All_Bad": [
+"how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
+            "lyft+free+ride", "uber+mylocation", "google earth+where I am", "siri, what is the mearning of life", "siri, how do I use the search function",
+            "gmes", "mzon", "utub", "whine store", "wal+mart", "solitere", "pocketmon", "twit+ster", "goggle", "pan-door-a", "that music thing my grandson uses to listen to music"
+            ]
+}
