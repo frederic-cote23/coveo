@@ -114,12 +114,15 @@ function appStoreScenario_createAqList (appcategoryAq, appisfreeAq){
 
   Object.keys(appcategoryAq).forEach(function (category){
 
+    finalList.push(appcategoryAq[category]+' '+'@apprank')
+
+    /*
     finalList.push(appcategoryAq[category]);  
     
     Object.keys(appisfreeAq).forEach(function (appisfree) {
       finalList.push(appcategoryAq[category]+' '+appisfreeAq[appisfree]);
     });
-
+    */
   });
 
   return finalList
@@ -141,5 +144,6 @@ const appisfreeAq = appStoreScenario_createAqFilter ('appisfree', appisfree["val
 const aqList = appStoreScenario_createAqList (appcategoryAq, appisfreeAq);
 
 //console.log(aqList)
+
 appStoreScenario_getRetultList (access_token, organizationId, aqList,fieldsToInclude, firstResult, numberOfResults)
 

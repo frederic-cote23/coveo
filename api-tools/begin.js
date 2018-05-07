@@ -1,5 +1,5 @@
 
-const axios = require('axios'); // promised based requests - like fetch() l
+const axios = require('axios'); // promised based requests - like fetch()
 
 function getCoffee() {
   return new Promise(resolve => {

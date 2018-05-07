@@ -1,0 +1,518 @@
+{
+    "searchendpoint" : "https://platform.cloud.coveo.com/rest/search/",
+	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
+    "orgName": "fcotetrainingorg",
+	"randomGoodQueries": [ "Construction",
+        "Simulator 2",
+        "Farming",
+        "Simulator 16",
+        "Portal",
+        "Knights",
+        "Space",
+        "Elmo",
+        "Youtubers",
+        "Life Gaming",
+        "Channel",
+        "Conqueror 3",
+        "Conqueror 4",
+        "XCOM®",
+        "Enemy Within",
+        "Dev Tycoon",
+        "Five",
+        "Nights Freddy's",
+        "Escapists",
+        "Real",
+        "Steel",
+        "Alto's",
+        "Odyssey",
+        "Smart",
+        "Baby ABC",
+        "Games Toddler",
+        "FINAL",
+        "FANTASY Ⅸ",
+        "Surgeon",
+        "Binding",
+        "Isaac Rebirth"],
+	"randomBadQueries": [],
+    "allowAnonymousVisits"	: true,
+    "anonymousThreshold" : 1,
+    "timeBetweenVisits": 2,
+    "timeBetweenActions": 1,
+    "pipeline": "default",
+    "randomCustomData": [
+		{
+			"apiname": "context_persona",
+			"values": ["Gamer"]
+		},
+		{
+			"apiname": "isbot", "values": ["true"]
+		}
+    ],
+	"globalFilter":"",
+    "scenarios" :[
+        {
+			"name": "Search And Click Free 1",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "MARVEL Avengers", 
+                         "docClickTitle" : "MARVEL Avengers Academy", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "Search And Click Free 2",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Gardenscapes", 
+                         "docClickTitle" : "Gardenscapes", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "Search And Click Free 3",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Pokémon GO", 
+                         "docClickTitle" : "Pokémon GO", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "Search And Click Paid 1",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "XCOM® Enemy", 
+                         "docClickTitle" : "XCOM® Enemy", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "Search And Click Paid 2",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "LEGO® Jurassic", 
+                         "docClickTitle" : "LEGO® Jurassic", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "Search And Click Paid 3",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Minecraft", 
+                         "docClickTitle" : "Minecraft", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                    } 
+                }
+            ]
+        },
+        {
+			"name": "RANDOM",
+			"weight": 5,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.75
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.75
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.20
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 8,
+						"probability": 0.20
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 6,
+						"probability": 0.05
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 6,
+						"probability": 0.05
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.55
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.10
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 10,
+						"probability": 0.10
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 4,
+						"probability": 0.40
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 4,
+						"probability": 0.40
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 0,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.45
+					}
+                }, 
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.10
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.10
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.30
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.30
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.25
+					}
+                }
+            ]
+        }
+    ]   
+}

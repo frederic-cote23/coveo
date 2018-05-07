@@ -1,0 +1,22 @@
+{
+    "searchendpoint" : "https://platform.cloud.coveo.com/rest/search/",
+	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
+    "orgName": "fcotetrainingorg",
+    "allowAnonymousVisits"	: true,
+    "anonymousThreshold" : 1,
+    "timeBetweenVisits": 2,
+    "timeBetweenActions": 1,
+    "pipeline": "default",
+    "randomCustomData": [
+		{
+			"apiname": "",
+			"values": [""]
+		},
+		{
+			"apiname": "isbot", "values": ["true"]
+		}
+    ],
+    "globalFilter": "",
+    "goodQueryFile": "data/app store/goodQueryList.json",
+    "searchAndClickFile": ["data/app store/searchAndClick_freeApp.json", "data/app store/searchAndClick_paidApp.json"]
+}

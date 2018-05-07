@@ -1,0 +1,2286 @@
+{
+    "Book": [
+        {
+            "query": "Amazon Kindle",
+            "title": "Amazon Kindle",
+            "uri": "https://itunes.apple.com/us/app/amazon-kindle/id302584613?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Business": [
+        {
+            "query": "Tiny Scanner+",
+            "title": "Tiny Scanner+ - PDF scanner to scan document, receipt & fax",
+            "uri": "https://itunes.apple.com/us/app/tiny-scanner-pdf-scanner-to-scan-document-receipt-fax/id556500145?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "HotSchedules",
+            "title": "HotSchedules",
+            "uri": "https://itunes.apple.com/us/app/hotschedules/id294934058?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Indeed Job",
+            "title": "Indeed Job Search",
+            "uri": "https://itunes.apple.com/us/app/indeed-job-search/id309735670?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "TurboScan™ Pro",
+            "title": "TurboScan™ Pro: PDF scanner",
+            "uri": "https://itunes.apple.com/us/app/turboscan-pro-pdf-scanner/id342548956?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "iScanner -",
+            "title": "iScanner - PDF Scanner App.",
+            "uri": "https://itunes.apple.com/us/app/iscanner-pdf-scanner-app/id1035331258?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Education": [
+        {
+            "query": "iScore5-APHG",
+            "title": "iScore5-APHG",
+            "uri": "https://itunes.apple.com/us/app/iscore5-aphg/id1067575280?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Kahoot Killer!",
+            "title": "Kahoot Killer!",
+            "uri": "https://itunes.apple.com/us/app/kahoot-killer/id1357814714?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Toca Life",
+            "title": "Toca Life: Vacation",
+            "uri": "https://itunes.apple.com/us/app/toca-life-vacation/id1114886979?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "SkyView® -",
+            "title": "SkyView® - Explore the Universe",
+            "uri": "https://itunes.apple.com/us/app/skyview-explore-the-universe/id404990064?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Toca Life",
+            "title": "Toca Life: Pets",
+            "uri": "https://itunes.apple.com/us/app/toca-life-pets/id1290182026?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Toca Hair",
+            "title": "Toca Hair Salon 3",
+            "uri": "https://itunes.apple.com/us/app/toca-hair-salon-3/id1119482395?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Star Walk",
+            "title": "Star Walk 2 - Night Sky Map",
+            "uri": "https://itunes.apple.com/us/app/star-walk-2-night-sky-map/id892279069?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "PlantSnap Plant",
+            "title": "PlantSnap Plant Identification",
+            "uri": "https://itunes.apple.com/us/app/plantsnap-plant-identification/id1234702272?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Duolingo",
+            "title": "Duolingo",
+            "uri": "https://itunes.apple.com/us/app/duolingo/id570060128?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Photomath",
+            "title": "Photomath",
+            "uri": "https://itunes.apple.com/us/app/photomath/id919087726?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Toca Life",
+            "title": "Toca Life: Hospital",
+            "uri": "https://itunes.apple.com/us/app/toca-life-hospital/id1156114278?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Toca Kitchen",
+            "title": "Toca Kitchen 2",
+            "uri": "https://itunes.apple.com/us/app/toca-kitchen-2/id943869618?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Graphing Calculator",
+            "title": "Graphing Calculator Plus",
+            "uri": "https://itunes.apple.com/us/app/graphing-calculator-plus/id1279565050?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "PROmote -",
+            "title": "PROmote - Army Study Guide",
+            "uri": "https://itunes.apple.com/us/app/promote-army-study-guide/id435352951?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Stack the",
+            "title": "Stack the States®",
+            "uri": "https://itunes.apple.com/us/app/stack-the-states/id381342267?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Kahoot! -",
+            "title": "Kahoot! - Play Learning Games",
+            "uri": "https://itunes.apple.com/us/app/kahoot-play-learning-games/id1131203560?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Toca Life",
+            "title": "Toca Life: After School",
+            "uri": "https://itunes.apple.com/us/app/toca-life-after-school/id1337598066?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Google Classroom",
+            "title": "Google Classroom",
+            "uri": "https://itunes.apple.com/us/app/google-classroom/id924620788?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Entertainment": [
+        {
+            "query": "My Talking",
+            "title": "My Talking Pet",
+            "uri": "https://itunes.apple.com/us/app/my-talking-pet/id662090840?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "iLiveThemes",
+            "title": "iLiveThemes",
+            "uri": "https://itunes.apple.com/us/app/ilivethemes/id1199873930?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "QDrops",
+            "title": "QDrops",
+            "uri": "https://itunes.apple.com/us/app/qdrops/id1357352231?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Emoji -",
+            "title": "Emoji - inTextMoji™ Pro ;)",
+            "uri": "https://itunes.apple.com/us/app/emoji-intextmoji-pro/id506462353?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "LT.SOUNDS",
+            "title": "LT.SOUNDS",
+            "uri": "https://itunes.apple.com/us/app/lt-sounds/id995588605?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Celebrity Voice",
+            "title": "Celebrity Voice Changer -Emoji",
+            "uri": "https://itunes.apple.com/us/app/celebrity-voice-changer-emoji/id1111710488?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Ticketmaster",
+            "title": "Ticketmaster",
+            "uri": "https://itunes.apple.com/us/app/ticketmaster/id500003565?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Decide Now!",
+            "title": "Decide Now!",
+            "uri": "https://itunes.apple.com/us/app/decide-now/id383718755?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "PlayStation App",
+            "title": "PlayStation App",
+            "uri": "https://itunes.apple.com/us/app/playstation-app/id410896080?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Xbox",
+            "title": "Xbox",
+            "uri": "https://itunes.apple.com/us/app/xbox/id736179781?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Hulu Watch",
+            "title": "Hulu: Watch TV Shows & Movies",
+            "uri": "https://itunes.apple.com/us/app/hulu-watch-tv-shows-movies/id376510438?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Lucky Cactus",
+            "title": "Lucky Cactus Grow",
+            "uri": "https://itunes.apple.com/us/app/lucky-cactus-grow/id1062682604?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Netflix",
+            "title": "Netflix",
+            "uri": "https://itunes.apple.com/us/app/netflix/id363590051?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "BuzzVideo -",
+            "title": "BuzzVideo - Videos, TV shows",
+            "uri": "https://itunes.apple.com/us/app/buzzvideo-videos-tv-shows/id1248716307?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Watch TNT",
+            "title": "Watch TNT",
+            "uri": "https://itunes.apple.com/us/app/watch-tnt/id460494135?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Procreate Pocket",
+            "title": "Procreate Pocket",
+            "uri": "https://itunes.apple.com/us/app/procreate-pocket/id916366645?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Let's create!",
+            "title": "Let's create! Pottery HD",
+            "uri": "https://itunes.apple.com/us/app/lets-create-pottery-hd/id380090605?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "UNICORN -",
+            "title": "UNICORN - Color by Number Game",
+            "uri": "https://itunes.apple.com/us/app/unicorn-color-by-number-game/id1293646758?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Colorfy Coloring",
+            "title": "Colorfy: Coloring Book & Games",
+            "uri": "https://itunes.apple.com/us/app/colorfy-coloring-book-games/id1009442510?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Amazon Prime",
+            "title": "Amazon Prime Video",
+            "uri": "https://itunes.apple.com/us/app/amazon-prime-video/id545519333?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Finance": [
+        {
+            "query": "Zelle",
+            "title": "Zelle",
+            "uri": "https://itunes.apple.com/us/app/zelle/id1260755201?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "PayPal Mobile",
+            "title": "PayPal: Mobile Cash",
+            "uri": "https://itunes.apple.com/us/app/paypal-mobile-cash/id283646709?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Venmo Send",
+            "title": "Venmo: Send & Receive Money",
+            "uri": "https://itunes.apple.com/us/app/venmo-send-receive-money/id351727428?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Wells Fargo",
+            "title": "Wells Fargo Mobile",
+            "uri": "https://itunes.apple.com/us/app/wells-fargo-mobile/id311548709?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Capital One",
+            "title": "Capital One Mobile",
+            "uri": "https://itunes.apple.com/us/app/capital-one-mobile/id407558537?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Bank of",
+            "title": "Bank of America Mobile Banking",
+            "uri": "https://itunes.apple.com/us/app/bank-of-america-mobile-banking/id284847138?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Chase Mobile®",
+            "title": "Chase Mobile®",
+            "uri": "https://itunes.apple.com/us/app/chase-mobile/id298867247?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Credit Karma",
+            "title": "Credit Karma",
+            "uri": "https://itunes.apple.com/us/app/credit-karma/id519817714?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Cash App",
+            "title": "Cash App",
+            "uri": "https://itunes.apple.com/us/app/cash-app/id711923939?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Food & Drink": [
+        {
+            "query": "Starbucks",
+            "title": "Starbucks",
+            "uri": "https://itunes.apple.com/us/app/starbucks/id331177714?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Forks Over",
+            "title": "Forks Over Knives - Healthy Recipes & Easy Meals",
+            "uri": "https://itunes.apple.com/us/app/forks-over-knives-healthy-recipes-easy-meals/id903911740?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Games": [
+        {
+            "query": "Construction Simulator",
+            "title": "Construction Simulator 2",
+            "uri": "https://itunes.apple.com/us/app/construction-simulator-2/id983632334?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Farming Simulator",
+            "title": "Farming Simulator 16",
+            "uri": "https://itunes.apple.com/us/app/farming-simulator-16/id992051355?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Portal Knights",
+            "title": "Portal Knights",
+            "uri": "https://itunes.apple.com/us/app/portal-knights/id881900496?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Space Simulator",
+            "title": "Space Simulator",
+            "uri": "https://itunes.apple.com/us/app/space-simulator/id516849108?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Elmo Calls",
+            "title": "Elmo Calls",
+            "uri": "https://itunes.apple.com/us/app/elmo-calls/id467703220?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Youtubers Life",
+            "title": "Youtubers Life: Gaming Channel",
+            "uri": "https://itunes.apple.com/us/app/youtubers-life-gaming-channel/id1006408029?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "World Conqueror",
+            "title": "World Conqueror 3",
+            "uri": "https://itunes.apple.com/us/app/world-conqueror-3/id979092836?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "World Conqueror",
+            "title": "World Conqueror 4",
+            "uri": "https://itunes.apple.com/us/app/world-conqueror-4/id1258468290?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "XCOM® Enemy",
+            "title": "XCOM®: Enemy Within",
+            "uri": "https://itunes.apple.com/us/app/xcom-enemy-within/id881270303?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Game Dev",
+            "title": "Game Dev Tycoon",
+            "uri": "https://itunes.apple.com/us/app/game-dev-tycoon/id1162580001?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Five Nights",
+            "title": "Five Nights at Freddy's 2",
+            "uri": "https://itunes.apple.com/us/app/five-nights-at-freddys-2/id941143328?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Escapists",
+            "title": "The Escapists",
+            "uri": "https://itunes.apple.com/us/app/the-escapists/id1005658093?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Five Nights",
+            "title": "Five Nights at Freddy's",
+            "uri": "https://itunes.apple.com/us/app/five-nights-at-freddys/id912536422?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Her Story",
+            "title": "Her Story",
+            "uri": "https://itunes.apple.com/us/app/her-story/id952658953?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Real Steel",
+            "title": "Real Steel",
+            "uri": "https://itunes.apple.com/us/app/real-steel/id455650341?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Alto's Odyssey",
+            "title": "Alto's Odyssey",
+            "uri": "https://itunes.apple.com/us/app/altos-odyssey/id1182456409?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Smart Baby",
+            "title": "Smart Baby ABC Games: Toddler Kids Learning Apps",
+            "uri": "https://itunes.apple.com/us/app/smart-baby-abc-games-toddler-kids-learning-apps/id1095144783?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "FINAL FANTASY",
+            "title": "FINAL FANTASY Ⅸ",
+            "uri": "https://itunes.apple.com/us/app/final-fantasy/id1041260001?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Surgeon Simulator",
+            "title": "Surgeon Simulator",
+            "uri": "https://itunes.apple.com/us/app/surgeon-simulator/id814977594?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Binding",
+            "title": "The Binding of Isaac: Rebirth",
+            "uri": "https://itunes.apple.com/us/app/the-binding-of-isaac-rebirth/id1069549814?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Neo Monsters",
+            "title": "Neo Monsters",
+            "uri": "https://itunes.apple.com/us/app/neo-monsters/id983143183?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Nexomon",
+            "title": "Nexomon",
+            "uri": "https://itunes.apple.com/us/app/nexomon/id1254864644?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Pumped BMX",
+            "title": "Pumped BMX 3",
+            "uri": "https://itunes.apple.com/us/app/pumped-bmx-3/id1073129594?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Athletics 2",
+            "title": "Athletics 2: Summer Sports",
+            "uri": "https://itunes.apple.com/us/app/athletics-2-summer-sports/id1007479011?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Touchgrind BMX",
+            "title": "Touchgrind BMX",
+            "uri": "https://itunes.apple.com/us/app/touchgrind-bmx/id426072035?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Ricky Carmichael's",
+            "title": "Ricky Carmichael's Motocross Matchup Pro",
+            "uri": "https://itunes.apple.com/us/app/ricky-carmichaels-motocross-matchup-pro/id463869460?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Dirt Trackin",
+            "title": "Dirt Trackin",
+            "uri": "https://itunes.apple.com/us/app/dirt-trackin/id940202798?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Dark Echo",
+            "title": "Dark Echo",
+            "uri": "https://itunes.apple.com/us/app/dark-echo/id951177560?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "sugar, sugar",
+            "title": "sugar, sugar",
+            "uri": "https://itunes.apple.com/us/app/sugar-sugar/id568141784?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Scribblenauts Unlimited",
+            "title": "Scribblenauts Unlimited",
+            "uri": "https://itunes.apple.com/us/app/scribblenauts-unlimited/id1030902626?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Poly Bridge",
+            "title": "Poly Bridge",
+            "uri": "https://itunes.apple.com/us/app/poly-bridge/id1197552569?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Room",
+            "title": "The Room Two",
+            "uri": "https://itunes.apple.com/us/app/the-room-two/id667362389?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "SIMULACRA",
+            "title": "SIMULACRA",
+            "uri": "https://itunes.apple.com/us/app/simulacra/id1252035454?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Scribblenauts Remix",
+            "title": "Scribblenauts Remix",
+            "uri": "https://itunes.apple.com/us/app/scribblenauts-remix/id444844790?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Room",
+            "title": "The Room Three",
+            "uri": "https://itunes.apple.com/us/app/the-room-three/id918054748?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Room",
+            "title": "The Room: Old Sins",
+            "uri": "https://itunes.apple.com/us/app/the-room-old-sins/id1286676015?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Ultimate Arctic",
+            "title": "Ultimate Arctic Simulator",
+            "uri": "https://itunes.apple.com/us/app/ultimate-arctic-simulator/id1150945726?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Smooth Operator!",
+            "title": "Smooth Operator!",
+            "uri": "https://itunes.apple.com/us/app/smooth-operator/id988455996?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Infinite Flight",
+            "title": "Infinite Flight",
+            "uri": "https://itunes.apple.com/us/app/infinite-flight/id471341991?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "RollerCoaster Tycoon®",
+            "title": "RollerCoaster Tycoon® Classic",
+            "uri": "https://itunes.apple.com/us/app/rollercoaster-tycoon-classic/id1113736426?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "LEGO® Jurassic",
+            "title": "LEGO® Jurassic World™",
+            "uri": "https://itunes.apple.com/us/app/lego-jurassic-world/id1073698593?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "LEGO® Ninjago™",
+            "title": "LEGO® Ninjago™: Shadow of Ronin™",
+            "uri": "https://itunes.apple.com/us/app/lego-ninjago-shadow-of-ronin/id1039141908?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Deemo",
+            "title": "Deemo",
+            "uri": "https://itunes.apple.com/us/app/deemo/id700637744?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Football Manager",
+            "title": "Football Manager Mobile 2018",
+            "uri": "https://itunes.apple.com/us/app/football-manager-mobile-2018/id1199550750?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Another Lost",
+            "title": "Another Lost Phone",
+            "uri": "https://itunes.apple.com/us/app/another-lost-phone/id1267197755?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Riddlord The",
+            "title": "Riddlord: The Consequence",
+            "uri": "https://itunes.apple.com/us/app/riddlord-the-consequence/id1313687346?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Organ Trail",
+            "title": "Organ Trail: Director's Cut",
+            "uri": "https://itunes.apple.com/us/app/organ-trail-directors-cut/id533024665?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Hitman Sniper",
+            "title": "Hitman Sniper",
+            "uri": "https://itunes.apple.com/us/app/hitman-sniper/id904278510?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "FINAL FANTASY",
+            "title": "FINAL FANTASY TACTICS: THE WAR OF THE LIONS",
+            "uri": "https://itunes.apple.com/us/app/final-fantasy-tactics-the-war-of-the-lions/id446760220?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Weave the",
+            "title": "Weave the Line",
+            "uri": "https://itunes.apple.com/us/app/weave-the-line/id1247895794?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Kingdom Rush",
+            "title": "Kingdom Rush Frontiers",
+            "uri": "https://itunes.apple.com/us/app/kingdom-rush-frontiers/id598581396?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Iron Marines",
+            "title": "Iron Marines",
+            "uri": "https://itunes.apple.com/us/app/iron-marines/id1056920931?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Attack the",
+            "title": "Attack the Light - Steven Universe Light RPG",
+            "uri": "https://itunes.apple.com/us/app/attack-the-light-steven-universe-light-rpg/id941380906?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Teeny Titans",
+            "title": "Teeny Titans - Teen Titans Go! Figure Battles",
+            "uri": "https://itunes.apple.com/us/app/teeny-titans-teen-titans-go-figure-battles/id1032743715?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "MYSTERY HOUSE",
+            "title": "MYSTERY HOUSE - SECRET STEALTH",
+            "uri": "https://itunes.apple.com/us/app/mystery-house-secret-stealth/id1349690040?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "BLeBRiTY",
+            "title": "BLeBRiTY",
+            "uri": "https://itunes.apple.com/us/app/blebrity/id1252073947?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The House",
+            "title": "The House of Da Vinci",
+            "uri": "https://itunes.apple.com/us/app/the-house-of-da-vinci/id1062515791?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Rusty Lake",
+            "title": "Rusty Lake Paradise",
+            "uri": "https://itunes.apple.com/us/app/rusty-lake-paradise/id1253855339?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Hockey Classic",
+            "title": "Hockey Classic 16",
+            "uri": "https://itunes.apple.com/us/app/hockey-classic-16/id1048139188?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Heads Up!",
+            "title": "Heads Up! Kids",
+            "uri": "https://itunes.apple.com/us/app/heads-up-kids/id937976391?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "MARVEL Avengers",
+            "title": "MARVEL Avengers Academy",
+            "uri": "https://itunes.apple.com/us/app/marvel-avengers-academy/id1061768547?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "SpongeBob Moves",
+            "title": "SpongeBob Moves In",
+            "uri": "https://itunes.apple.com/us/app/spongebob-moves-in/id576836614?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Bloons TD",
+            "title": "Bloons TD 5",
+            "uri": "https://itunes.apple.com/us/app/bloons-td-5/id563718995?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "True Skate",
+            "title": "True Skate",
+            "uri": "https://itunes.apple.com/us/app/true-skate/id549105915?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Plague Inc.",
+            "title": "Plague Inc.",
+            "uri": "https://itunes.apple.com/us/app/plague-inc/id525818839?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Minecraft",
+            "title": "Minecraft",
+            "uri": "https://itunes.apple.com/us/app/minecraft/id479516143?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Daily Themed",
+            "title": "Daily Themed Crossword Puzzle",
+            "uri": "https://itunes.apple.com/us/app/daily-themed-crossword-puzzle/id1197354394?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Modern Strike",
+            "title": "Modern Strike Online: FPS",
+            "uri": "https://itunes.apple.com/us/app/modern-strike-online-fps/id1197441484?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Puzzler King",
+            "title": "Puzzler King",
+            "uri": "https://itunes.apple.com/us/app/puzzler-king/id1354362389?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Premium Sudoku",
+            "title": "Premium Sudoku Cards",
+            "uri": "https://itunes.apple.com/us/app/premium-sudoku-cards/id1271796899?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Connect",
+            "title": "Word Connect ¤",
+            "uri": "https://itunes.apple.com/us/app/word-connect-%C2%A4/id1226926872?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Army Men",
+            "title": "Army Men Strike",
+            "uri": "https://itunes.apple.com/us/app/army-men-strike/id1235557817?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Collect",
+            "title": "Word Collect: Word Puzzle Game",
+            "uri": "https://itunes.apple.com/us/app/word-collect-word-puzzle-game/id1299956969?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Gardenscapes",
+            "title": "Gardenscapes",
+            "uri": "https://itunes.apple.com/us/app/gardenscapes/id1105855019?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "slither.io",
+            "title": "slither.io",
+            "uri": "https://itunes.apple.com/us/app/slither-io/id1091944550?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Tokyo Ghoul",
+            "title": "Tokyo Ghoul: Dark War",
+            "uri": "https://itunes.apple.com/us/app/tokyo-ghoul-dark-war/id1202806324?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "100 PICS",
+            "title": "100 PICS Quiz",
+            "uri": "https://itunes.apple.com/us/app/100-pics-quiz/id652945710?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "MLB 9",
+            "title": "MLB 9 Innings 18",
+            "uri": "https://itunes.apple.com/us/app/mlb-9-innings-18/id1059665257?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Guns of",
+            "title": "Guns of Boom",
+            "uri": "https://itunes.apple.com/us/app/guns-of-boom/id1179715015?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Pokémon GO",
+            "title": "Pokémon GO",
+            "uri": "https://itunes.apple.com/us/app/pok%C3%A9mon-go/id1094591345?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Infinite Golf",
+            "title": "Infinite Golf",
+            "uri": "https://itunes.apple.com/us/app/infinite-golf/id1321399324?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Design Home",
+            "title": "Design Home",
+            "uri": "https://itunes.apple.com/us/app/design-home/id1010962391?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Pixel Gun",
+            "title": "Pixel Gun 3D",
+            "uri": "https://itunes.apple.com/us/app/pixel-gun-3d/id640111933?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Infinite Word",
+            "title": "Infinite Word Search Puzzles",
+            "uri": "https://itunes.apple.com/us/app/infinite-word-search-puzzles/id1023782170?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Sky Rusher",
+            "title": "Sky Rusher",
+            "uri": "https://itunes.apple.com/us/app/sky-rusher/id1340860865?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Flip Master",
+            "title": "Flip Master",
+            "uri": "https://itunes.apple.com/us/app/flip-master/id1214283838?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Spiral 3D",
+            "title": "Spiral 3D",
+            "uri": "https://itunes.apple.com/us/app/spiral-3d/id1368359476?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Link",
+            "title": "Word Link - Word Puzzle Game",
+            "uri": "https://itunes.apple.com/us/app/word-link-word-puzzle-game/id1347684152?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Craft Warriors",
+            "title": "Craft Warriors",
+            "uri": "https://itunes.apple.com/us/app/craft-warriors/id1101088321?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Will it",
+            "title": "Will it Crush?",
+            "uri": "https://itunes.apple.com/us/app/will-it-crush/id1347072403?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Search",
+            "title": "Word Search Pro‧",
+            "uri": "https://itunes.apple.com/us/app/word-search-pro/id1123930673?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Friday the",
+            "title": "Friday the 13th: Killer Puzzle",
+            "uri": "https://itunes.apple.com/us/app/friday-the-13th-killer-puzzle/id1297059370?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Flower",
+            "title": "Flower",
+            "uri": "https://itunes.apple.com/us/app/flower/id1279174518?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Kim Kardashian",
+            "title": "Kim Kardashian: Hollywood",
+            "uri": "https://itunes.apple.com/us/app/kim-kardashian-hollywood/id860822992?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Virtual Families",
+            "title": "Virtual Families",
+            "uri": "https://itunes.apple.com/us/app/virtual-families/id320300350?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "LEGO® Marvel",
+            "title": "LEGO® Marvel Super Heroes",
+            "uri": "https://itunes.apple.com/us/app/lego-marvel-super-heroes/id737006024?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Octodad Dadliest",
+            "title": "Octodad: Dadliest Catch",
+            "uri": "https://itunes.apple.com/us/app/octodad-dadliest-catch/id1017367213?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Florence",
+            "title": "Florence",
+            "uri": "https://itunes.apple.com/us/app/florence/id1297430468?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Pou",
+            "title": "Pou",
+            "uri": "https://itunes.apple.com/us/app/pou/id575154654?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Where's My",
+            "title": "Where's My Water?",
+            "uri": "https://itunes.apple.com/us/app/wheres-my-water/id449735650?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Wheel of",
+            "title": "Wheel of Fortune: Show Puzzles",
+            "uri": "https://itunes.apple.com/us/app/wheel-of-fortune-show-puzzles/id898040123?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Trivia Crack",
+            "title": "Trivia Crack (No Ads)",
+            "uri": "https://itunes.apple.com/us/app/trivia-crack-no-ads/id723795263?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "My Talking",
+            "title": "My Talking Angela",
+            "uri": "https://itunes.apple.com/us/app/my-talking-angela/id909351158?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "SongPop 2",
+            "title": "SongPop 2 - Guess The Song",
+            "uri": "https://itunes.apple.com/us/app/songpop-2-guess-the-song/id975364678?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Homescapes",
+            "title": "Homescapes",
+            "uri": "https://itunes.apple.com/us/app/homescapes/id1195621598?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Trivia Crack",
+            "title": "Trivia Crack",
+            "uri": "https://itunes.apple.com/us/app/trivia-crack/id651510680?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Farming USA",
+            "title": "Farming USA 2",
+            "uri": "https://itunes.apple.com/us/app/farming-usa-2/id1179462965?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Farming Simulator",
+            "title": "Farming Simulator 18",
+            "uri": "https://itunes.apple.com/us/app/farming-simulator-18/id1091224574?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Fit the",
+            "title": "Fit the Fat 2",
+            "uri": "https://itunes.apple.com/us/app/fit-the-fat-2/id992309647?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Choices Stories",
+            "title": "Choices: Stories You Play",
+            "uri": "https://itunes.apple.com/us/app/choices-stories-you-play/id1071310449?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Cliffhanger -",
+            "title": "Cliffhanger - Chat Stories",
+            "uri": "https://itunes.apple.com/us/app/cliffhanger-chat-stories/id1232403626?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Episode -",
+            "title": "Episode - Choose Your Story",
+            "uri": "https://itunes.apple.com/us/app/episode-choose-your-story/id656971078?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Love Nikki-Dress",
+            "title": "Love Nikki-Dress UP Queen",
+            "uri": "https://itunes.apple.com/us/app/love-nikki-dress-up-queen/id1214763767?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Eggggg -",
+            "title": "Eggggg - The Platform Puker",
+            "uri": "https://itunes.apple.com/us/app/eggggg-the-platform-puker/id1145738671?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "InseAquarium Crazy",
+            "title": "InseAquarium: Crazy Aqurium",
+            "uri": "https://itunes.apple.com/us/app/inseaquarium-crazy-aqurium/id1330902748?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Abby Monkey",
+            "title": "Abby Monkey Basic Skills Pre K",
+            "uri": "https://itunes.apple.com/us/app/abby-monkey-basic-skills-pre-k/id458813562?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Civilization Revolution",
+            "title": "Civilization Revolution 2",
+            "uri": "https://itunes.apple.com/us/app/civilization-revolution-2/id864880531?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Ultimate Wolf",
+            "title": "Ultimate Wolf Simulator",
+            "uri": "https://itunes.apple.com/us/app/ultimate-wolf-simulator/id1003822659?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Smart Baby",
+            "title": "Smart Baby Shapes: Learning games for toddler kids",
+            "uri": "https://itunes.apple.com/us/app/smart-baby-shapes-learning-games-for-toddler-kids/id1057556336?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Pocket Universe",
+            "title": "Pocket Universe - 3D Sandbox",
+            "uri": "https://itunes.apple.com/us/app/pocket-universe-3d-sandbox/id1214937203?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "SimplePlanes",
+            "title": "SimplePlanes",
+            "uri": "https://itunes.apple.com/us/app/simpleplanes/id823869162?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "HQ -",
+            "title": "HQ - Live Trivia Game Show",
+            "uri": "https://itunes.apple.com/us/app/hq-live-trivia-game-show/id1232278996?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "The Bonfire",
+            "title": "The Bonfire: Forsaken Lands",
+            "uri": "https://itunes.apple.com/us/app/the-bonfire-forsaken-lands/id1218799102?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Criminal Case",
+            "title": "Criminal Case",
+            "uri": "https://itunes.apple.com/us/app/criminal-case/id767473889?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Sunday Lawn",
+            "title": "Sunday Lawn",
+            "uri": "https://itunes.apple.com/us/app/sunday-lawn/id313199385?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Gymnastics Superstar",
+            "title": "Gymnastics Superstar",
+            "uri": "https://itunes.apple.com/us/app/gymnastics-superstar/id1239325152?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "MARVEL Future",
+            "title": "MARVEL Future Fight",
+            "uri": "https://itunes.apple.com/us/app/marvel-future-fight/id955705796?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Operate Now",
+            "title": "Operate Now: Hospital",
+            "uri": "https://itunes.apple.com/us/app/operate-now-hospital/id1136678102?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Papa's Taco",
+            "title": "Papa's Taco Mia To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-taco-mia-to-go/id1207867591?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Papa's Pizzeria",
+            "title": "Papa's Pizzeria To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-pizzeria-to-go/id925494667?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Papa's Hot",
+            "title": "Papa's Hot Doggeria To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-hot-doggeria-to-go/id1292787392?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Papa's Cupcakeria",
+            "title": "Papa's Cupcakeria To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-cupcakeria-to-go/id1029932207?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Papa's Burgeria",
+            "title": "Papa's Burgeria To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-burgeria-to-go/id600626116?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Papa's Freezeria",
+            "title": "Papa's Freezeria To Go!",
+            "uri": "https://itunes.apple.com/us/app/papas-freezeria-to-go/id824305459?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "My Bakery",
+            "title": "My Bakery Empire",
+            "uri": "https://itunes.apple.com/us/app/my-bakery-empire/id1258500723?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Cash Show",
+            "title": "Cash Show - Win Real Cash!",
+            "uri": "https://itunes.apple.com/us/app/cash-show-win-real-cash/id1335097700?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Cash, Inc.",
+            "title": "Cash, Inc. Fame & Fortune Game",
+            "uri": "https://itunes.apple.com/us/app/cash-inc-fame-fortune-game/id1270598321?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Golf Clash",
+            "title": "Golf Clash",
+            "uri": "https://itunes.apple.com/us/app/golf-clash/id1089225191?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "PUBG MOBILE",
+            "title": "PUBG MOBILE",
+            "uri": "https://itunes.apple.com/us/app/pubg-mobile/id1330123889?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Grand Theft",
+            "title": "Grand Theft Auto III",
+            "uri": "https://itunes.apple.com/us/app/grand-theft-auto-iii/id479662730?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Mini Metro",
+            "title": "Mini Metro",
+            "uri": "https://itunes.apple.com/us/app/mini-metro/id837860959?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Merge Dragons!",
+            "title": "Merge Dragons!",
+            "uri": "https://itunes.apple.com/us/app/merge-dragons/id1208952944?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Pocket Build",
+            "title": "Pocket Build",
+            "uri": "https://itunes.apple.com/us/app/pocket-build/id1293681293?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "House Flip",
+            "title": "House Flip with Chip and Jo",
+            "uri": "https://itunes.apple.com/us/app/house-flip-with-chip-and-jo/id1063805318?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Merge Gems!",
+            "title": "Merge Gems!",
+            "uri": "https://itunes.apple.com/us/app/merge-gems/id1302018227?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Dragon City",
+            "title": "Dragon City Mobile",
+            "uri": "https://itunes.apple.com/us/app/dragon-city-mobile/id561941526?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Vector for",
+            "title": "Vector for iPhone",
+            "uri": "https://itunes.apple.com/us/app/vector-for-iphone/id562989701?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Castle of",
+            "title": "Castle of Illusion",
+            "uri": "https://itunes.apple.com/us/app/castle-of-illusion/id646489967?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Hidden City®",
+            "title": "Hidden City®",
+            "uri": "https://itunes.apple.com/us/app/hidden-city/id722217471?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Idle Miner",
+            "title": "Idle Miner Tycoon",
+            "uri": "https://itunes.apple.com/us/app/idle-miner-tycoon/id1116645064?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Clash of",
+            "title": "Clash of Clans",
+            "uri": "https://itunes.apple.com/us/app/clash-of-clans/id529479190?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Mafia City",
+            "title": "Mafia City: War of Underworld",
+            "uri": "https://itunes.apple.com/us/app/mafia-city-war-of-underworld/id1235569398?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Crush the",
+            "title": "Crush the Castle",
+            "uri": "https://itunes.apple.com/us/app/crush-the-castle/id318639200?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Card Thief",
+            "title": "Card Thief",
+            "uri": "https://itunes.apple.com/us/app/card-thief/id1186226470?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Card Wars",
+            "title": "Card Wars - Adventure Time Card Game",
+            "uri": "https://itunes.apple.com/us/app/card-wars-adventure-time-card-game/id791341471?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Reigns Her",
+            "title": "Reigns: Her Majesty",
+            "uri": "https://itunes.apple.com/us/app/reigns-her-majesty/id1171040772?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Reigns",
+            "title": "Reigns",
+            "uri": "https://itunes.apple.com/us/app/reigns/id1114127463?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Charades!™",
+            "title": "Charades!™",
+            "uri": "https://itunes.apple.com/us/app/charades/id653967729?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Blackjack 21",
+            "title": "Blackjack 21: Blackjackist",
+            "uri": "https://itunes.apple.com/us/app/blackjack-21-blackjackist/id959038492?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Slotomania Slots",
+            "title": "Slotomania Slots: Vegas Casino",
+            "uri": "https://itunes.apple.com/us/app/slotomania-slots-vegas-casino/id447553564?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Solitaire Tripeaks",
+            "title": "Solitaire Tripeaks – Card Game",
+            "uri": "https://itunes.apple.com/us/app/solitaire-tripeaks-card-game/id892521917?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Solitaire·",
+            "title": "Solitaire·",
+            "uri": "https://itunes.apple.com/us/app/solitaire/id593715088?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Clash Royale",
+            "title": "Clash Royale",
+            "uri": "https://itunes.apple.com/us/app/clash-royale/id1053012308?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Truck Simulator",
+            "title": "Truck Simulator PRO Europe",
+            "uri": "https://itunes.apple.com/us/app/truck-simulator-pro-europe/id1300096896?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Truck Simulator",
+            "title": "Truck Simulator PRO 2",
+            "uri": "https://itunes.apple.com/us/app/truck-simulator-pro-2/id1182931201?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Grand Theft",
+            "title": "Grand Theft Auto: Chinatown Wars",
+            "uri": "https://itunes.apple.com/us/app/grand-theft-auto-chinatown-wars/id344186162?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Earn to",
+            "title": "Earn to Die",
+            "uri": "https://itunes.apple.com/us/app/earn-to-die/id554937499?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Earn to",
+            "title": "Earn to Die 2",
+            "uri": "https://itunes.apple.com/us/app/earn-to-die-2/id891194610?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Drive Ahead!",
+            "title": "Drive Ahead!",
+            "uri": "https://itunes.apple.com/us/app/drive-ahead/id964436963?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "MMX Hill",
+            "title": "MMX Hill Dash 2 - Race Offroad",
+            "uri": "https://itunes.apple.com/us/app/mmx-hill-dash-2-race-offroad/id1271725269?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Home Design",
+            "title": "Home Design Makeover!",
+            "uri": "https://itunes.apple.com/us/app/home-design-makeover/id1339938732?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Ticket to",
+            "title": "Ticket to Ride",
+            "uri": "https://itunes.apple.com/us/app/ticket-to-ride/id432504470?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Doodle God™",
+            "title": "Doodle God™",
+            "uri": "https://itunes.apple.com/us/app/doodle-god/id376374689?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Skip-Bo™ Pro",
+            "title": "Skip-Bo™ Pro",
+            "uri": "https://itunes.apple.com/us/app/skip-bo-pro/id678448523?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Skater -",
+            "title": "Skater - Skate Legendary Spots",
+            "uri": "https://itunes.apple.com/us/app/skater-skate-legendary-spots/id874845056?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Catan Classic",
+            "title": "Catan Classic",
+            "uri": "https://itunes.apple.com/us/app/catan-classic/id335029050?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Clue The",
+            "title": "Clue: The Classic Mystery Game",
+            "uri": "https://itunes.apple.com/us/app/clue-the-classic-mystery-game/id1150534552?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Game",
+            "title": "The Game of Life",
+            "uri": "https://itunes.apple.com/us/app/the-game-of-life/id1117405948?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "AdVenture Capitalist",
+            "title": "AdVenture Capitalist",
+            "uri": "https://itunes.apple.com/us/app/adventure-capitalist/id927006017?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Puzzle Game",
+            "title": "Puzzle Game Blast",
+            "uri": "https://itunes.apple.com/us/app/puzzle-game-blast/id1315531311?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "New YAHTZEE®",
+            "title": "New YAHTZEE® With Buddies Dice",
+            "uri": "https://itunes.apple.com/us/app/new-yahtzee-with-buddies-dice/id1206967173?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Words With",
+            "title": "Words With Friends 2-Word Game",
+            "uri": "https://itunes.apple.com/us/app/words-with-friends-2-word-game/id1196764367?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Flow Free",
+            "title": "Flow Free",
+            "uri": "https://itunes.apple.com/us/app/flow-free/id526641427?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Cookies!™",
+            "title": "Word Cookies!™",
+            "uri": "https://itunes.apple.com/us/app/word-cookies/id1153883316?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "UNO ™",
+            "title": "UNO ™ & Friends",
+            "uri": "https://itunes.apple.com/us/app/uno-friends/id537263603?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Sudoku -",
+            "title": "Sudoku - Classic Logic Game",
+            "uri": "https://itunes.apple.com/us/app/sudoku-classic-logic-game/id1193508329?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Plug for",
+            "title": "Plug for Terraria",
+            "uri": "https://itunes.apple.com/us/app/plug-for-terraria/id1327576790?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Survivalcraft 2",
+            "title": "Survivalcraft 2",
+            "uri": "https://itunes.apple.com/us/app/survivalcraft-2/id1185580782?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Terraria",
+            "title": "Terraria",
+            "uri": "https://itunes.apple.com/us/app/terraria/id640364616?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Avakin Life",
+            "title": "Avakin Life – 3D Virtual World",
+            "uri": "https://itunes.apple.com/us/app/avakin-life-3d-virtual-world/id740737088?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "1LINE one-stroke",
+            "title": "1LINE one-stroke puzzle game",
+            "uri": "https://itunes.apple.com/us/app/1line-one-stroke-puzzle-game/id1179975506?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Word Crossy",
+            "title": "Word Crossy - A crossword game",
+            "uri": "https://itunes.apple.com/us/app/word-crossy-a-crossword-game/id1273162445?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Wordscapes",
+            "title": "Wordscapes",
+            "uri": "https://itunes.apple.com/us/app/wordscapes/id1207472156?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Woody Puzzle",
+            "title": "Woody Puzzle",
+            "uri": "https://itunes.apple.com/us/app/woody-puzzle/id1212951043?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Wooden Block",
+            "title": "Wooden Block Puzzle Game",
+            "uri": "https://itunes.apple.com/us/app/wooden-block-puzzle-game/id1078160821?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Block! Hexa",
+            "title": "Block! Hexa Puzzle™",
+            "uri": "https://itunes.apple.com/us/app/block-hexa-puzzle/id1095572547?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Brew Town",
+            "title": "Brew Town",
+            "uri": "https://itunes.apple.com/us/app/brew-town/id1181032262?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Incredibox",
+            "title": "Incredibox",
+            "uri": "https://itunes.apple.com/us/app/incredibox/id1093131935?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Heads Up!",
+            "title": "Heads Up!",
+            "uri": "https://itunes.apple.com/us/app/heads-up/id623592465?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "NBA 2K18",
+            "title": "NBA 2K18",
+            "uri": "https://itunes.apple.com/us/app/nba-2k18/id1232808822?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Health & Fitness": [
+        {
+            "query": "30 Day",
+            "title": "30 Day Fitness Challenge Log",
+            "uri": "https://itunes.apple.com/us/app/30-day-fitness-challenge-log/id1099771240?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Full Fitness",
+            "title": "Full Fitness : Exercise Workout Trainer",
+            "uri": "https://itunes.apple.com/us/app/full-fitness-exercise-workout-trainer/id536049508?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Fitness Buddy+",
+            "title": "Fitness Buddy+: Gym Workouts",
+            "uri": "https://itunes.apple.com/us/app/fitness-buddy-gym-workouts/id443646748?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "MyFitnessPal",
+            "title": "MyFitnessPal",
+            "uri": "https://itunes.apple.com/us/app/myfitnesspal/id341232718?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "BetterMe Weight",
+            "title": "BetterMe: Weight Loss Workouts",
+            "uri": "https://itunes.apple.com/us/app/betterme-weight-loss-workouts/id1264546236?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Instant Heart",
+            "title": "Instant Heart Rate+ HR Monitor",
+            "uri": "https://itunes.apple.com/us/app/instant-heart-rate-hr-monitor/id395042892?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Wonder",
+            "title": "The Wonder Weeks",
+            "uri": "https://itunes.apple.com/us/app/the-wonder-weeks/id529815782?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Flo Period",
+            "title": "Flo Period & Ovulation Tracker",
+            "uri": "https://itunes.apple.com/us/app/flo-period-ovulation-tracker/id1038369065?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "7 Minute",
+            "title": "7 Minute Workout Challenge",
+            "uri": "https://itunes.apple.com/us/app/7-minute-workout-challenge/id680170305?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Sweatcoin -",
+            "title": "Sweatcoin - Sweat for Coin",
+            "uri": "https://itunes.apple.com/us/app/sweatcoin-sweat-for-coin/id971023427?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Fitbit",
+            "title": "Fitbit",
+            "uri": "https://itunes.apple.com/us/app/fitbit/id462638897?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "My Macros+",
+            "title": "My Macros+ | Diet & Calories",
+            "uri": "https://itunes.apple.com/us/app/my-macros-diet-calories/id475249619?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "HeartWatch. Heart",
+            "title": "HeartWatch. Heart & Activity",
+            "uri": "https://itunes.apple.com/us/app/heartwatch-heart-activity/id1062745479?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Couch to",
+            "title": "Couch to 5K® - Run training",
+            "uri": "https://itunes.apple.com/us/app/couch-to-5k-run-training/id448474423?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "MyNetDiary PRO",
+            "title": "MyNetDiary PRO - Calorie Counter and Food Diary",
+            "uri": "https://itunes.apple.com/us/app/mynetdiary-pro-calorie-counter-and-food-diary/id352247139?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Lifestyle": [
+        {
+            "query": "T-Mobile Tuesdays",
+            "title": "T-Mobile Tuesdays",
+            "uri": "https://itunes.apple.com/us/app/t-mobile-tuesdays/id1111876388?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Lipsi",
+            "title": "Lipsi",
+            "uri": "https://itunes.apple.com/us/app/lipsi/id1050861701?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Stylebook",
+            "title": "Stylebook",
+            "uri": "https://itunes.apple.com/us/app/stylebook/id335709058?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Tinder",
+            "title": "Tinder",
+            "uri": "https://itunes.apple.com/us/app/tinder/id547702041?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Bumble -",
+            "title": "Bumble - Meet New People",
+            "uri": "https://itunes.apple.com/us/app/bumble-meet-new-people/id930441707?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "My Baby's",
+            "title": "My Baby's Beat",
+            "uri": "https://itunes.apple.com/us/app/my-babys-beat/id420859056?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Magazines & Newspapers": [],
+    "Medical": [
+        {
+            "query": "Hear My",
+            "title": "Hear My Baby Heartbeat App",
+            "uri": "https://itunes.apple.com/us/app/hear-my-baby-heartbeat-app/id1111420122?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Music": [
+        {
+            "query": "djay 2",
+            "title": "djay 2 for iPhone",
+            "uri": "https://itunes.apple.com/us/app/djay-2-for-iphone/id669198374?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Sing! by",
+            "title": "Sing! by Smule",
+            "uri": "https://itunes.apple.com/us/app/sing-by-smule/id509993510?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "TonalEnergy Tuner",
+            "title": "TonalEnergy Tuner & Metronome",
+            "uri": "https://itunes.apple.com/us/app/tonalenergy-tuner-metronome/id497716362?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "SoundCloud -",
+            "title": "SoundCloud - Music & Audio",
+            "uri": "https://itunes.apple.com/us/app/soundcloud-music-audio/id336353151?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Musi -",
+            "title": "Musi - Simple Music Streaming",
+            "uri": "https://itunes.apple.com/us/app/musi-simple-music-streaming/id591560124?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "iHeartRadio",
+            "title": "iHeartRadio",
+            "uri": "https://itunes.apple.com/us/app/iheartradio/id290638154?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "YouTube Music",
+            "title": "YouTube Music",
+            "uri": "https://itunes.apple.com/us/app/youtube-music/id1017492454?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Spotify Music",
+            "title": "Spotify Music",
+            "uri": "https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "MuseScore Songbook",
+            "title": "MuseScore Songbook - Sheet Music",
+            "uri": "https://itunes.apple.com/us/app/musescore-songbook-sheet-music/id835731296?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "FL Studio",
+            "title": "FL Studio Mobile",
+            "uri": "https://itunes.apple.com/us/app/fl-studio-mobile/id432850619?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Shazam",
+            "title": "Shazam",
+            "uri": "https://itunes.apple.com/us/app/shazam/id284993459?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Pandora Music",
+            "title": "Pandora Music",
+            "uri": "https://itunes.apple.com/us/app/pandora-music/id284035177?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Amazon Music",
+            "title": "Amazon Music",
+            "uri": "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Navigation": [
+        {
+            "query": "MotionX GPS",
+            "title": "MotionX GPS",
+            "uri": "https://itunes.apple.com/us/app/motionx-gps/id299949744?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Waze Navigation",
+            "title": "Waze Navigation & Live Traffic",
+            "uri": "https://itunes.apple.com/us/app/waze-navigation-live-traffic/id323229106?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Maps",
+            "title": "Google Maps - GPS Navigation",
+            "uri": "https://itunes.apple.com/us/app/google-maps-gps-navigation/id585027354?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "News": [
+        {
+            "query": "Pocket Casts",
+            "title": "Pocket Casts",
+            "uri": "https://itunes.apple.com/us/app/pocket-casts/id414834813?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Twitter",
+            "title": "Twitter",
+            "uri": "https://itunes.apple.com/us/app/twitter/id333903271?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Photo & Video": [
+        {
+            "query": "Vigo Video",
+            "title": "Vigo Video -Formerly Flipagram",
+            "uri": "https://itunes.apple.com/us/app/vigo-video-formerly-flipagram/id512727332?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "1 Second",
+            "title": "1 Second Everyday: Video Diary",
+            "uri": "https://itunes.apple.com/us/app/1-second-everyday-video-diary/id587823548?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "ProCam 5",
+            "title": "ProCam 5",
+            "uri": "https://itunes.apple.com/us/app/procam-5/id730712409?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Twitch",
+            "title": "Twitch",
+            "uri": "https://itunes.apple.com/us/app/twitch/id460177396?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Cute CUT",
+            "title": "Cute CUT Pro",
+            "uri": "https://itunes.apple.com/us/app/cute-cut-pro/id618790117?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "VHS Camcorder",
+            "title": "VHS Camcorder",
+            "uri": "https://itunes.apple.com/us/app/vhs-camcorder/id679454835?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Boomerang from",
+            "title": "Boomerang from Instagram",
+            "uri": "https://itunes.apple.com/us/app/boomerang-from-instagram/id1041596399?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Glitché",
+            "title": "Glitché",
+            "uri": "https://itunes.apple.com/us/app/glitch%C3%A9/id634467171?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "musical.ly",
+            "title": "musical.ly",
+            "uri": "https://itunes.apple.com/us/app/musical-ly/id835599320?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Instagram",
+            "title": "Instagram",
+            "uri": "https://itunes.apple.com/us/app/instagram/id389801252?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "YouTube Watch,",
+            "title": "YouTube: Watch, Listen, Stream",
+            "uri": "https://itunes.apple.com/us/app/youtube-watch-listen-stream/id544007664?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "8mm Vintage",
+            "title": "8mm Vintage Camera",
+            "uri": "https://itunes.apple.com/us/app/8mm-vintage-camera/id406541444?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "kirakira+",
+            "title": "kirakira+",
+            "uri": "https://itunes.apple.com/us/app/kirakira/id955687901?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Google Photos",
+            "title": "Google Photos",
+            "uri": "https://itunes.apple.com/us/app/google-photos/id962194608?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "ProCamera.",
+            "title": "ProCamera.",
+            "uri": "https://itunes.apple.com/us/app/procamera/id694647259?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Facetune",
+            "title": "Facetune",
+            "uri": "https://itunes.apple.com/us/app/facetune/id606310581?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "TouchRetouch",
+            "title": "TouchRetouch",
+            "uri": "https://itunes.apple.com/us/app/touchretouch/id373311252?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Pixomatic photo",
+            "title": "Pixomatic photo editor",
+            "uri": "https://itunes.apple.com/us/app/pixomatic-photo-editor/id1080114119?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Enlight",
+            "title": "Enlight",
+            "uri": "https://itunes.apple.com/us/app/enlight/id930026670?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Productivity": [
+        {
+            "query": "X-VPN Unlimited",
+            "title": "X-VPN Unlimited VPN Proxy",
+            "uri": "https://itunes.apple.com/us/app/x-vpn-unlimited-vpn-proxy/id1250312807?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "VPN 360",
+            "title": "VPN 360 - Unlimited VPN Proxy",
+            "uri": "https://itunes.apple.com/us/app/vpn-360-unlimited-vpn-proxy/id1193154948?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "HotspotShield VPN",
+            "title": "HotspotShield VPN & Wifi Proxy",
+            "uri": "https://itunes.apple.com/us/app/hotspotshield-vpn-wifi-proxy/id443369807?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Best VPN",
+            "title": "Best VPN Proxy Betternet",
+            "uri": "https://itunes.apple.com/us/app/best-vpn-proxy-betternet/id946659216?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Calendar",
+            "title": "Google Calendar",
+            "uri": "https://itunes.apple.com/us/app/google-calendar/id909319292?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Forest -",
+            "title": "Forest - Stay focused",
+            "uri": "https://itunes.apple.com/us/app/forest-stay-focused/id866450515?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Microsoft Word",
+            "title": "Microsoft Word",
+            "uri": "https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Docs",
+            "title": "Google Docs",
+            "uri": "https://itunes.apple.com/us/app/google-docs/id842842640?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Sheets",
+            "title": "Google Sheets",
+            "uri": "https://itunes.apple.com/us/app/google-sheets/id842849113?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Slides",
+            "title": "Google Slides",
+            "uri": "https://itunes.apple.com/us/app/google-slides/id879478102?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Color Your",
+            "title": "Color Your Call",
+            "uri": "https://itunes.apple.com/us/app/color-your-call/id1357073746?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Yahoo Mail",
+            "title": "Yahoo Mail",
+            "uri": "https://itunes.apple.com/us/app/yahoo-mail/id577586159?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Microsoft Outlook",
+            "title": "Microsoft Outlook",
+            "uri": "https://itunes.apple.com/us/app/microsoft-outlook/id951937596?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Gmail -",
+            "title": "Gmail - Email by Google",
+            "uri": "https://itunes.apple.com/us/app/gmail-email-by-google/id422689480?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Dropbox",
+            "title": "Dropbox",
+            "uri": "https://itunes.apple.com/us/app/dropbox/id327630330?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Fantastical 2",
+            "title": "Fantastical 2 for iPhone",
+            "uri": "https://itunes.apple.com/us/app/fantastical-2-for-iphone/id718043190?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Reference": [
+        {
+            "query": "Bible",
+            "title": "Bible",
+            "uri": "https://itunes.apple.com/us/app/bible/id282935706?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Translate",
+            "title": "Google Translate",
+            "uri": "https://itunes.apple.com/us/app/google-translate/id414706506?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "e-Sword LT",
+            "title": "e-Sword LT: Bible Study to Go",
+            "uri": "https://itunes.apple.com/us/app/e-sword-lt-bible-study-to-go/id634158738?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Sky Guide",
+            "title": "Sky Guide AR",
+            "uri": "https://itunes.apple.com/us/app/sky-guide-ar/id576588894?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "WolframAlpha",
+            "title": "WolframAlpha",
+            "uri": "https://itunes.apple.com/us/app/wolframalpha/id334989259?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ],
+    "Shopping": [
+        {
+            "query": "Walmart –",
+            "title": "Walmart – Shopping and Saving",
+            "uri": "https://itunes.apple.com/us/app/walmart-shopping-and-saving/id338137227?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Penny Finder",
+            "title": "Penny Finder",
+            "uri": "https://itunes.apple.com/us/app/penny-finder/id1247306177?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Zaful -",
+            "title": "Zaful - My Swimsuit Story",
+            "uri": "https://itunes.apple.com/us/app/zaful-my-swimsuit-story/id1078789949?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Poshmark",
+            "title": "Poshmark",
+            "uri": "https://itunes.apple.com/us/app/poshmark/id470412147?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "letgo Buy",
+            "title": "letgo: Buy & Sell Secondhand",
+            "uri": "https://itunes.apple.com/us/app/letgo-buy-sell-secondhand/id986339882?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "OfferUp -",
+            "title": "OfferUp - Buy. Sell. Simple.",
+            "uri": "https://itunes.apple.com/us/app/offerup-buy-sell-simple/id468996152?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "AliExpress Shopping",
+            "title": "AliExpress Shopping App",
+            "uri": "https://itunes.apple.com/us/app/aliexpress-shopping-app/id436672029?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Groupon",
+            "title": "Groupon",
+            "uri": "https://itunes.apple.com/us/app/groupon/id352683833?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Target",
+            "title": "Target",
+            "uri": "https://itunes.apple.com/us/app/target/id297430070?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Wish -",
+            "title": "Wish - Shopping Made Fun",
+            "uri": "https://itunes.apple.com/us/app/wish-shopping-made-fun/id530621395?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "eBay -",
+            "title": "eBay - Home & Fashion Shopping",
+            "uri": "https://itunes.apple.com/us/app/ebay-home-fashion-shopping/id282614216?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Amazon -",
+            "title": "Amazon - Shopping made easy",
+            "uri": "https://itunes.apple.com/us/app/amazon-shopping-made-easy/id297606951?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Social Networking": [
+        {
+            "query": "LinkedIn",
+            "title": "LinkedIn",
+            "uri": "https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Sports": [
+        {
+            "query": "J23 -",
+            "title": "J23 - Release Dates & Restocks",
+            "uri": "https://itunes.apple.com/us/app/j23-release-dates-restocks/id497880658?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "ESPN Live",
+            "title": "ESPN: Live Sports & Scores",
+            "uri": "https://itunes.apple.com/us/app/espn-live-sports-scores/id317469184?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Stickers": [],
+    "Travel": [
+        {
+            "query": "MarineTraffic -",
+            "title": "MarineTraffic - Ship Tracking",
+            "uri": "https://itunes.apple.com/us/app/marinetraffic-ship-tracking/id563910324?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Airbnb",
+            "title": "Airbnb",
+            "uri": "https://itunes.apple.com/us/app/airbnb/id401626263?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Camp &",
+            "title": "Camp & RV - Tents to RV Parks",
+            "uri": "https://itunes.apple.com/us/app/camp-rv-tents-to-rv-parks/id370820516?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Hopper -",
+            "title": "Hopper - Book Flights & Hotels",
+            "uri": "https://itunes.apple.com/us/app/hopper-book-flights-hotels/id904052407?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "HappyCow Find",
+            "title": "HappyCow Find Vegan Food",
+            "uri": "https://itunes.apple.com/us/app/happycow-find-vegan-food/id435871950?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "OBD Fusion",
+            "title": "OBD Fusion",
+            "uri": "https://itunes.apple.com/us/app/obd-fusion/id650684932?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Uber",
+            "title": "Uber",
+            "uri": "https://itunes.apple.com/us/app/uber/id368677368?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Lyft",
+            "title": "Lyft",
+            "uri": "https://itunes.apple.com/us/app/lyft/id529379082?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Utilities": [
+        {
+            "query": "CamToPlan PRO",
+            "title": "CamToPlan PRO",
+            "uri": "https://itunes.apple.com/us/app/camtoplan-pro/id1300697619?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Phanced",
+            "title": "Phanced",
+            "uri": "https://itunes.apple.com/us/app/phanced/id1361503522?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "My Verizon",
+            "title": "My Verizon",
+            "uri": "https://itunes.apple.com/us/app/my-verizon/id416023011?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Plague Inc",
+            "title": "Plague Inc: Scenario Creator",
+            "uri": "https://itunes.apple.com/us/app/plague-inc-scenario-creator/id1113002956?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Red Onion",
+            "title": "Red Onion - Tor-powered web browser for anonymous browsing and darknet",
+            "uri": "https://itunes.apple.com/us/app/red-onion-tor-powered-web-browser-for-anonymous-browsing/id829739720?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Google",
+            "title": "Google",
+            "uri": "https://itunes.apple.com/us/app/google/id284815942?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Google Chrome",
+            "title": "Google Chrome",
+            "uri": "https://itunes.apple.com/us/app/google-chrome/id535886823?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Construction Master",
+            "title": "Construction Master Pro",
+            "uri": "https://itunes.apple.com/us/app/construction-master-pro/id370406446?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "AdBlock",
+            "title": "AdBlock",
+            "uri": "https://itunes.apple.com/us/app/adblock/id691121579?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Emoji Me",
+            "title": "Emoji Me Keyboard | Zmoji",
+            "uri": "https://itunes.apple.com/us/app/emoji-me-keyboard-zmoji/id1112879753?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "Bitmoji",
+            "title": "Bitmoji",
+            "uri": "https://itunes.apple.com/us/app/bitmoji/id868077558?mt=8&uo=4",
+            "appisfree": "true"
+        }
+    ],
+    "Weather": [
+        {
+            "query": "RadarScope",
+            "title": "RadarScope",
+            "uri": "https://itunes.apple.com/us/app/radarscope/id288419283?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "Dark Sky",
+            "title": "Dark Sky Weather",
+            "uri": "https://itunes.apple.com/us/app/dark-sky-weather/id517329357?mt=8&uo=4",
+            "appisfree": "false"
+        },
+        {
+            "query": "The Weather",
+            "title": "The Weather Channel: Forecast",
+            "uri": "https://itunes.apple.com/us/app/the-weather-channel-forecast/id295646461?mt=8&uo=4",
+            "appisfree": "true"
+        },
+        {
+            "query": "NOAA Radar",
+            "title": "NOAA Radar Pro: Weather Alerts",
+            "uri": "https://itunes.apple.com/us/app/noaa-radar-pro-weather-alerts/id749133301?mt=8&uo=4",
+            "appisfree": "false"
+        }
+    ]
+}
