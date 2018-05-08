@@ -3,10 +3,8 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+        "kik", "evony", "plague inc", "line webtoon daily", "procreate pocket", "iMovie", "Facetune", "chrome", "spotify", "lyft", "imovie", "HSBC", "PC Optimum", "Fit Men Cook", "Grubhub", "KetoDiet",
+        "Fitbit", "Hong Kong Travel Guide", "TonalEnergy", "AirDrive", "Google Docs", "SkyView", "Photomath","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
         "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
         "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
     ],
@@ -23,7 +21,7 @@
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Hipster"]
         },
 		{
 			"apiname": "context_AppType",
@@ -63,18 +61,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "whatsapp", 
-                         "docClickTitle" : "WhatsApp Messenger", 
+                         "queryText" : "Kik", 
+                         "docClickTitle" : "Kik", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/kik/id357218860?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "WhatsApp Messenger"
+                        "pagetitle" : "Kik"
                     }
                 }
             ]
@@ -107,18 +105,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Fortnite", 
-                         "docClickTitle" : "Fortnite", 
+                         "queryText" : "Evony", 
+                         "docClickTitle" : "Evony", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fortnite/id1261357853?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/evony/id1098157959?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fortnite"
+                        "pagetitle" : "Evony"
                     }
                 }
             ]
@@ -151,18 +149,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "PlayStation App", 
-                         "docClickTitle" : "PlayStation App", 
+                         "queryText" : "line webtoon daily", 
+                         "docClickTitle" : "LINE WEBTOON - Daily Comics", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/playstation-app/id410896080?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/line-webtoon-daily-comics/id894546091?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "PlayStation App"
+                        "pagetitle" : "LINE WEBTOON - Daily Comics"
                     }
                 }
             ]
@@ -195,18 +193,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "musical.ly", 
-                         "docClickTitle" : "musical.ly", 
+                         "queryText" : "iMovie", 
+                         "docClickTitle" : "iMovie", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/musical-ly/id835599320?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/imovie/id377298193?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "musical.ly"
+                        "pagetitle" : "iMovie"
                     }
                 }
             ]
@@ -239,18 +237,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Bitmoji", 
-                         "docClickTitle" : "Bitmoji", 
+                         "queryText" : "Chrome", 
+                         "docClickTitle" : "Google Chrome", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bitmoji/id868077558?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/google-chrome/id535886823?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bitmoji"
+                        "pagetitle" : "Google Chrome"
                     }
                 }
             ]
@@ -283,18 +281,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "iTunes U", 
-                         "docClickTitle" : "iTunes U", 
+                         "queryText" : "Photomath", 
+                         "docClickTitle" : "Photomath", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/itunes-u/id490217893?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/photomath/id919087726?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "iTunes U"
+                        "pagetitle" : "Photomath"
                     }
                 }
             ]
@@ -327,18 +325,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Best VPN Proxy", 
-                         "docClickTitle" : "Best VPN Proxy Betternet", 
+                         "queryText" : "Google Docs", 
+                         "docClickTitle" : "Google Docs", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/best-vpn-proxy-betternet/id946659216?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/google-docs/id842842640?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Best VPN Proxy Betternet"
+                        "pagetitle" : "Google Docs"
                     }
                 }
             ]
@@ -371,18 +369,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Amazon Music", 
-                         "docClickTitle" : "Amazon Music", 
+                         "queryText" : "spotify", 
+                         "docClickTitle" : "Spotify Music", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Amazon Music"
+                        "pagetitle" : "Spotify Music"
                     }
                 }
             ]
@@ -415,18 +413,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "trivago", 
-                         "docClickTitle" : "trivago: Compare Hotels & Save", 
+                         "queryText" : "Lyft", 
+                         "docClickTitle" : "Lyft", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/trivago-compare-hotels-save/id376888389?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/lyft/id529379082?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "trivago: Compare Hotels & Save"
+                        "pagetitle" : "Lyft"
                     }
                 }
             ]
@@ -459,18 +457,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Sweatcoin", 
-                         "docClickTitle" : "Sweatcoin - Sweat for Coin", 
+                         "queryText" : "Fitbit", 
+                         "docClickTitle" : "Fitbit", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/sweatcoin-sweat-for-coin/id971023427?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/fitbit/id462638897?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Sweatcoin - Sweat for Coin"
+                        "pagetitle" : "Fitbit"
                     }
                 }
             ]
@@ -503,18 +501,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "OpenTable", 
-                         "docClickTitle" : "OpenTable", 
+                         "queryText" : "Grubhub", 
+                         "docClickTitle" : "Grubhub – Order Food Delivery", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/opentable/id296581815?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/grubhub-order-food-delivery/id302920553?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "OpenTable"
+                        "pagetitle" : "Grubhub – Order Food Delivery"
                     }
                 }
             ]
@@ -547,18 +545,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "wish", 
-                         "docClickTitle" : "Wish - Shopping Made Fun", 
+                         "queryText" : "PC Optimum", 
+                         "docClickTitle" : "PC Optimum", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/wish-shopping-made-fun/id530621395?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/pc-optimum/id634040057?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Wish - Shopping Made Fun"
+                        "pagetitle" : "PC Optimum"
                     }
                 }
             ]
@@ -591,18 +589,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Bank of the West", 
-                         "docClickTitle" : "Bank of the West", 
+                         "queryText" : "hsbc", 
+                         "docClickTitle" : "HSBC HK Mobile Banking", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bank-of-the-west/id947859969?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/hsbc-hk-mobile-banking/id1164066737?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bank of the West"
+                        "pagetitle" : "HSBC HK Mobile Banking"
                     }
                 }
             ]
