@@ -1,42 +1,98 @@
 {
-    "Gamer": [
-"whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight"
-            ],
+"Gamer_Free": [
+"whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "facebook", "mario", 
+        "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "plague", "world of goo", "gravity", "clash", "war lord",
+        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Amazon Music", "trivago", "Fitness Buddy", "OpenTable", "Wish",
+        "conqueror", "war craft", "lord of rings", "sword fight", "star wars"
+],
 
-    "Hipster": [
-"kik", "evony", "plague inc", "line webtoon daily", "procreate pocket", "iMovie", "Facetune", "chrome", "spotify", "lyft", "imovie", "HSBC", "PC Optimum", "Fit Men Cook", "Grubhub", "KetoDiet",
-            "Fitbit", "Hong Kong Travel Guide", "TonalEnergy", "AirDrive", "Google Docs", "SkyView", "Photomath"
-            ],
+"Gamer_Paid": [
+"whatsapp", "minecraft", "playstation app", "facebook", "mario", 
+    "pokemon go", "vpn", "final fantasy", "plague", "world of goo", "gravity", "clash", "war",
+    "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Amazon Music", "Wish",
+    "sword fight"
+    ],
 
-    "Social Media Addict": [
-"twitter", "rise up", "heads up", "hulu", "lucky cactus grow", "snapchat", "procam","flahslight", "uber", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Google Classroom", "Star Walk", "Dropbox",
-            "Audio Notes", "iMusic", "MuseScore", "Paris Metro", "MyFitnessPal", "HeartWatch", "Uber Eats", "Palate coffee tasting", "Amazon Go", "Union State Bank"
 
-            ],
 
-    "Student": [
-"messenger", "love balls", "terraria", "amazon prime video", "decide now", "instagram", "enlight","my verizon", "pandora", "tinder", "groupon", "Bank of America Mobile", "AliExpress", "whisky app", "Domino's Pizza",
-            "My Macros+", "Lose It!", "Inquire", "AirBnb", "FL Studio", "Todo", "Google Sheets", "Graphing Calculator", "Peak brain", "WineCalc"
-            ],
+"Hipster_Free": [
+"iMovie", "chrome", "spotify", "lyft", "imovie", "Keto Diet", "Fitbit", "Travel Guide", "Google Docs", "craft beer", "beard", "culture"
+    ],
 
-    "Business Pro": [
-"linkedin", "helix balls", "the game of life", "netflix", "lt.sounds", "Google Photos", "8mm Vintage", "google","Construction Master", "ted", "Toca Life",
-            "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", "Wine Guide", "amazon", "soundcloud", "netflix","TD bank", "calculator", "wolfram"
-            ],
+"Hipster_Paid": [
+"iMovie", "chrome", "spotify","imovie","Fitbit", "Google Docs", "beard", "culture"
+    ],
 
-    "Freelancer":[
-"skype", "weave line", "catan classic", "google home", "iLiveThemes", "Vine Camera", "kirakira","gif keyboard","mac id", "khan academy", "PlantSnap","GDrive",
-            "passwords and pins", "shazam","stop&go", "tripAdvisor","speakeasy japanese","headspace","Full Fitness","McDonald's", "wine collection","flipp","rbc mobile", "flipagram"
-            ],
 
-    "All_Good": [
+
+"Social Media Addict_Free": [
+"twitter", "rise up", "heads up", "hulu", "snapchat", "uber", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Google Classroom", "Star Walk", "Dropbox",
+            "Audio Notes", "iMusic", "Paris Metro", "MyFitnessPal", "Amazon Go"
+    ],
+
+"Social Media Addict_Paid": [
+"twitter", "rise up", "heads up", "hulu", "snapchat", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Star Walk", "Dropbox",
+    "Audio Notes", "Amazon Go"
+    ],
+
+
+
+"Student_Free": [
+"messenger", "love balls", "amazon prime video", "decide now", "instagram", "pandora", "tinder", "groupon", "Bank of America Mobile",
+    "Lose It!", "Inquire", "AirBnb", "Todo", "Google Sheets", "Graphing Calculator", "Peak brain"
+    ],
+
+"Student_Paid": [
+"messenger", "love balls", "decide now", "instagram", "pandora",
+    "Lose It!", "AirBnb", "Todo", "Google Sheets", "Graphing Calculator"
+    ],
+
+
+
+"Business Pro_Free": [
+"linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted",
+            "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", 
+            "Wine Guide", "amazon", "soundcloud", "netflix", "calculator"
+    ],
+
+"Business Pro_Paid": [
+"linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted", "Toca Life",
+    "Microsoft Outlook", "Stay focused", "Travel List", "Sleep Tracker", "Starbucks", 
+    "amazon", "soundcloud", "netflix", "calculator"
+    ],
+
+
+
+"Freelancer_Free":[
+"skype", "google home", "Vine Camera", "gif keyboard", "mac id", "khan academy", "shazam",
+    "tripAdvisor","japanese", "Full Fitness","McDonald's", "wine collection"
+    ],
+
+"Freelancer_Paid":[
+"skype", "google home", "Vine Camera", "gif", "mac id",
+    "japanese", "Full Fitness", "wine collection"
+        ],
+
+
+
+"All_Good_Free": [
 "games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-            "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-            "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+            "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+            "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+            "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+            "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+            "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "knives", 
+            "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
             ],
+
+    "All_Good_Paid": [
+"games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
+        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
+    ],
 
     "All_Bad": [
 "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 

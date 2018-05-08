@@ -66,7 +66,6 @@ async function appStoreScenario_getRetultList (access_token, organizationId, aqL
 
   queue.drain = function() {
     console.log('all items have been processed');
-    
   };
 
   aqList.forEach(aq => {

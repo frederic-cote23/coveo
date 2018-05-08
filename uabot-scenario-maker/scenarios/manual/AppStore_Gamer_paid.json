@@ -3,12 +3,15 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+        "whatsapp", "minecraft", "playstation app", "facebook", "mario", 
+        "pokemon go", "vpn", "final fantasy", "plague", "world of goo", "gravity", "clash", "war",
+        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Amazon Music", "Wish","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
+        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku",
+        "sword fight"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -462,7 +465,7 @@
                          "queryText" : "forks over knives", 
                          "docClickTitle" : "Forks Over Knives - Healthy Recipes & Easy Meals", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
                     } 
                 },
                 {

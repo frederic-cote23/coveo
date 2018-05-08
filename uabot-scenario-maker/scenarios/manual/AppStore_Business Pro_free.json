@@ -3,12 +3,15 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+        "linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted",
+        "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", 
+        "Wine Guide", "amazon", "soundcloud", "netflix", "calculator", "games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "knives", 
+        "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -23,7 +26,7 @@
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Business Pro"]
         },
 		{
 			"apiname": "context_AppType",
@@ -63,18 +66,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "whatsapp", 
-                         "docClickTitle" : "WhatsApp Messenger", 
+                         "queryText" : "LinkedIn", 
+                         "docClickTitle" : "LinkedIn", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "WhatsApp Messenger"
+                        "pagetitle" : "LinkedIn"
                     }
                 }
             ]
@@ -107,18 +110,18 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Fortnite", 
-                         "docClickTitle" : "Fortnite", 
+                         "queryText" : "Helix Jump", 
+                         "docClickTitle" : "Helix Jump", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fortnite/id1261357853?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/helix-jump/id1345968745?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fortnite"
+                        "pagetitle" : "Helix Jump"
                     }
                 }
             ]
@@ -154,7 +157,7 @@
                          "queryText" : "PlayStation App", 
                          "docClickTitle" : "PlayStation App", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -198,7 +201,7 @@
                          "queryText" : "musical.ly", 
                          "docClickTitle" : "musical.ly", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -242,7 +245,7 @@
                          "queryText" : "Bitmoji", 
                          "docClickTitle" : "Bitmoji", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -286,7 +289,7 @@
                          "queryText" : "iTunes U", 
                          "docClickTitle" : "iTunes U", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -330,7 +333,7 @@
                          "queryText" : "Best VPN Proxy", 
                          "docClickTitle" : "Best VPN Proxy Betternet", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -374,7 +377,7 @@
                          "queryText" : "Amazon Music", 
                          "docClickTitle" : "Amazon Music", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -418,7 +421,7 @@
                          "queryText" : "trivago", 
                          "docClickTitle" : "trivago: Compare Hotels & Save", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -462,7 +465,7 @@
                          "queryText" : "Sweatcoin", 
                          "docClickTitle" : "Sweatcoin - Sweat for Coin", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -506,7 +509,7 @@
                          "queryText" : "OpenTable", 
                          "docClickTitle" : "OpenTable", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -550,7 +553,7 @@
                          "queryText" : "wish", 
                          "docClickTitle" : "Wish - Shopping Made Fun", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
@@ -594,7 +597,7 @@
                          "queryText" : "Bank of the West", 
                          "docClickTitle" : "Bank of the West", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
                     } 
                 },
                 {
