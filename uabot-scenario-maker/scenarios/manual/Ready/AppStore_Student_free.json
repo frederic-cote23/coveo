@@ -3,12 +3,14 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+        "messenger", "love balls", "amazon prime video", "decide now", "instagram", "pandora", "tinder", "groupon", "Bank of America Mobile",
+        "Lose It!", "Inquire", "AirBnb", "Todo", "Google Sheets", "Graphing Calculator", "Peak brain","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "knives", 
+        "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -20,13 +22,22 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Student"]
         },
-		{
+        {
+			"apiname": "persona",
+			"values": ["Student"]
+        },
+        {
 			"apiname": "context_AppType",
+			"values": ["free"]
+		},
+		{
+			"apiname": "AppType",
 			"values": ["free"]
 		},
 		{
@@ -41,6 +52,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -63,18 +81,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "whatsapp", 
-                         "docClickTitle" : "WhatsApp Messenger", 
+                         "queryText" : "Messenger", 
+                         "docClickTitle" : "Messenger", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                             "context_AppType":"free",
+                             "AppType":"free", 
+                             "context_persona": "Student",
+                             "persona": "Student"
+                            } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/messenger/id454638411?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "WhatsApp Messenger"
+                        "pagetitle" : "Messenger"
                     }
                 }
             ]
@@ -85,6 +108,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -107,18 +137,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Fortnite", 
-                         "docClickTitle" : "Fortnite", 
+                         "queryText" : "super saiyan", 
+                         "docClickTitle" : "Superhero Z Goku for Super Saiyan and Dragon-Ball", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fortnite/id1261357853?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/superhero-z-goku-for-super-saiyan-and-dragon-ball/id1158919899?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fortnite"
+                        "pagetitle" : "Superhero Z Goku for Super Saiyan and Dragon-Ball"
                     }
                 }
             ]
@@ -129,6 +164,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -151,10 +193,15 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "PlayStation App", 
-                         "docClickTitle" : "PlayStation App", 
+                         "queryText" : "Amazon Prime Video", 
+                         "docClickTitle" : "Amazon Prime Video", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
@@ -162,7 +209,7 @@
                     "arguments" : {
                         "pageuri" : "https://itunes.apple.com/us/app/playstation-app/id410896080?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "PlayStation App"
+                        "pagetitle" : "Amazon Prime Video"
                     }
                 }
             ]
@@ -173,6 +220,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -195,18 +249,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "musical.ly", 
-                         "docClickTitle" : "musical.ly", 
+                         "queryText" : "Instagram", 
+                         "docClickTitle" : "Instagram", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           }
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/musical-ly/id835599320?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/instagram/id389801252?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "musical.ly"
+                        "pagetitle" : "Instagram"
                     }
                 }
             ]
@@ -217,6 +276,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -239,18 +305,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Bitmoji", 
-                         "docClickTitle" : "Bitmoji", 
+                         "queryText" : "My Verizon", 
+                         "docClickTitle" : "My Verizon", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bitmoji/id868077558?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/my-verizon/id416023011?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bitmoji"
+                        "pagetitle" : "My Verizon"
                     }
                 }
             ]
@@ -261,6 +332,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -283,18 +361,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "iTunes U", 
-                         "docClickTitle" : "iTunes U", 
+                         "queryText" : "Peak - Brain Training", 
+                         "docClickTitle" : "Peak - Brain Training", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/itunes-u/id490217893?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/peak-brain-training/id806223188?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "iTunes U"
+                        "pagetitle" : "Peak - Brain Training"
                     }
                 }
             ]
@@ -305,6 +388,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -327,18 +417,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Best VPN Proxy", 
-                         "docClickTitle" : "Best VPN Proxy Betternet", 
+                         "queryText" : "Google Sheets", 
+                         "docClickTitle" : "Google Sheets", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/best-vpn-proxy-betternet/id946659216?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/google-sheets/id842849113?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Best VPN Proxy Betternet"
+                        "pagetitle" : "Google Sheets"
                     }
                 }
             ]
@@ -349,6 +444,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -371,18 +473,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Amazon Music", 
-                         "docClickTitle" : "Amazon Music", 
+                         "queryText" : "Pandora Music", 
+                         "docClickTitle" : "Pandora Music", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/pandora-music/id284035177?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Amazon Music"
+                        "pagetitle" : "Pandora Music"
                     }
                 }
             ]
@@ -393,6 +500,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -415,18 +529,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "trivago", 
-                         "docClickTitle" : "trivago: Compare Hotels & Save", 
+                         "queryText" : "AirBnb", 
+                         "docClickTitle" : "AirBnb", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/trivago-compare-hotels-save/id376888389?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/airbnb/id401626263?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "trivago: Compare Hotels & Save"
+                        "pagetitle" : "AirBnb"
                     }
                 }
             ]
@@ -437,6 +556,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -459,18 +585,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Sweatcoin", 
-                         "docClickTitle" : "Sweatcoin - Sweat for Coin", 
+                         "queryText" : "lose it", 
+                         "docClickTitle" : "Lose It! – Calorie Counter", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/sweatcoin-sweat-for-coin/id971023427?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/lose-it-calorie-counter/id297368629?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Sweatcoin - Sweat for Coin"
+                        "pagetitle" : "Lose It! – Calorie Counter"
                     }
                 }
             ]
@@ -481,6 +612,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -503,18 +641,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "OpenTable", 
-                         "docClickTitle" : "OpenTable", 
+                         "queryText" : "Domino's ", 
+                         "docClickTitle" : "Domino's Pizza USA", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/opentable/id296581815?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/dominos-pizza-usa/id436491861?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "OpenTable"
+                        "pagetitle" : "Domino's Pizza USA"
                     }
                 }
             ]
@@ -525,6 +668,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -547,18 +697,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "wish", 
-                         "docClickTitle" : "Wish - Shopping Made Fun", 
+                         "queryText" : "AliExpress", 
+                         "docClickTitle" : "AliExpress Shopping App", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/wish-shopping-made-fun/id530621395?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/aliexpress-shopping-app/id436672029?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Wish - Shopping Made Fun"
+                        "pagetitle" : "AliExpress Shopping App"
                     }
                 }
             ]
@@ -569,6 +724,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -591,18 +753,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Bank of the West", 
-                         "docClickTitle" : "Bank of the West", 
+                         "queryText" : "Bank of America", 
+                         "docClickTitle" : "Bank of America Mobile Banking", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Student",
+                            "persona": "Student"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bank-of-the-west/id947859969?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/bank-of-america-mobile-banking/id284847138?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bank of the West"
+                        "pagetitle" : "Bank of America Mobile Banking"
                     }
                 }
             ]
@@ -612,6 +779,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {

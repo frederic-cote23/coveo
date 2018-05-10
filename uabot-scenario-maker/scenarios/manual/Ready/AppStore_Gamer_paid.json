@@ -3,12 +3,15 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "iMovie", "chrome", "spotify","imovie","Fitbit", "Google Docs", "beard", "culture","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
+        "whatsapp", "minecraft", "playstation app", "facebook", "mario", 
+        "pokemon go", "vpn", "final fantasy", "plague", "world of goo", "gravity", "clash", "war",
+        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Amazon Music", "Wish","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
         "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
         "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
         "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
         "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
-        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku",
+        "sword fight"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -20,13 +23,22 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Hipster"]
+			"values": ["Gamer"]
         },
-		{
+        {
+			"apiname": "persona",
+			"values": ["Gamer"]
+        },
+        {
 			"apiname": "context_AppType",
+			"values": ["paid"]
+		},
+		{
+			"apiname": "AppType",
 			"values": ["paid"]
 		},
 		{
@@ -41,6 +53,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -63,18 +82,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Plague Inc", 
-                         "docClickTitle" : "Plague Inc.", 
+                         "queryText" : "Minecraft", 
+                         "docClickTitle" : "Minecraft", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                             "context_AppType":"paid",
+                             "AppType":"paid", 
+                             "context_persona": "Gamer",
+                             "persona": "Gamer"
+                            } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/plague-inc/id525818839?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/minecraft/id479516143?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Plague Inc."
+                        "pagetitle" : "Minecraft"
                     }
                 }
             ]
@@ -85,6 +109,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -107,18 +138,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Procreate Pocket", 
-                         "docClickTitle" : "Procreate Pocket", 
+                         "queryText" : "My Talking Pet", 
+                         "docClickTitle" : "My Talking Pet", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/procreate-pocket/id916366645?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/my-talking-pet/id662090840?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Procreate Pocket"
+                        "pagetitle" : "My Talking Pet"
                     }
                 }
             ]
@@ -129,6 +165,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -151,18 +194,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Facetune", 
-                         "docClickTitle" : "Facetune", 
+                         "queryText" : "Afterlight", 
+                         "docClickTitle" : "Afterlight 2", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/facetune/id606310581?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/afterlight-2/id1293122457?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Facetune"
+                        "pagetitle" : "Afterlight 2"
                     }
                 }
             ]
@@ -173,6 +221,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -195,18 +250,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "plague scenario creator", 
-                         "docClickTitle" : "Plague Inc: Scenario Creator", 
+                         "queryText" : "red onion", 
+                         "docClickTitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/plague-inc-scenario-creator/id1113002956?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/red-onion-tor-powered-web-browser-for-anonymous-browsing/id829739720?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Plague Inc: Scenario Creator"
+                        "pagetitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet"
                     }
                 }
             ]
@@ -217,6 +277,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -239,18 +306,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "sky view", 
-                         "docClickTitle" : "SkyView® - Explore the Universe", 
+                         "queryText" : "promote army", 
+                         "docClickTitle" : "PROmote - Army Study Guide", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "	https://itunes.apple.com/us/app/skyview-explore-the-universe/id404990064?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/promote-army-study-guide/id435352951?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "SkyView® - Explore the Universe"
+                        "pagetitle" : "PROmote - Army Study Guide"
                     }
                 }
             ]
@@ -261,6 +333,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -283,18 +362,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "airdrive", 
-                         "docClickTitle" : "AirDrive - Wireless Hard Drive", 
+                         "queryText" : "Webmail++", 
+                         "docClickTitle" : "Webmail++", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/airdrive-wireless-hard-drive/id781508900?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/webmail/id392501588?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "AirDrive - Wireless Hard Drive"
+                        "pagetitle" : "Webmail++"
                     }
                 }
             ]
@@ -305,6 +389,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -327,18 +418,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "mtronome", 
-                         "docClickTitle" : "TonalEnergy Tuner & Metronome", 
+                         "queryText" : "djay", 
+                         "docClickTitle" : "djay 2 for iPhone", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/tonalenergy-tuner-metronome/id497716362?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/djay-2-for-iphone/id669198374?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "TonalEnergy Tuner & Metronome"
+                        "pagetitle" : "djay 2 for iPhone"
                     }
                 }
             ]
@@ -349,6 +445,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -371,18 +474,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "hong kong guide", 
-                         "docClickTitle" : "Hong Kong Travel Guide (with Offline Maps) - mTrip", 
+                         "queryText" : "Munich Travel Guide", 
+                         "docClickTitle" : "Munich Travel Guide (with Offline Maps) - mTrip", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/hong-kong-travel-guide-with-offline-maps-mtrip/id425729197?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/munich-travel-guide-with-offline-maps-mtrip/id389779181?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Hong Kong Travel Guide (with Offline Maps) - mTrip"
+                        "pagetitle" : "Munich Travel Guide (with Offline Maps) - mTrip"
                     }
                 }
             ]
@@ -393,6 +501,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -415,18 +530,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Keto Diet", 
-                         "docClickTitle" : "KetoDiet", 
+                         "queryText" : "Fitness Buddy", 
+                         "docClickTitle" : "Fitness Buddy: Gym Workouts", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/ketodiet/id575004207?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/fitness-buddy-gym-workouts/id514780106?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "KetoDiet"
+                        "pagetitle" : "Fitness Buddy: Gym Workouts"
                     }
                 }
             ]
@@ -437,6 +557,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -459,18 +586,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "fit men", 
-                         "docClickTitle" : "Fit Men Cook - Healthy Recipes", 
+                         "queryText" : "forks over knives", 
+                         "docClickTitle" : "Forks Over Knives - Healthy Recipes & Easy Meals", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid", 
+                            "context_persona": "Gamer",
+                            "persona": "Gamer"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fit-men-cook-healthy-recipes/id980368562?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/forks-over-knives-healthy-recipes-easy-meals/id903911740?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fit Men Cook - Healthy Recipes"
+                        "pagetitle" : "Forks Over Knives - Healthy Recipes & Easy Meals"
                     }
                 }
             ]
@@ -480,6 +612,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {

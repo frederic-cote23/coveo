@@ -3,12 +3,14 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "fortnite", "minecraft", "playstation app", "my talking pet", "musical.ly", "Afterlight", "bitmoji", "facebook", "mario", 
-        "bitmoji", "clash royale", "clash of clans", "pokemon go", "vpn", "super mario", "final fantasy", "xcom", "plague", "world of goo", "gravity", "clash", "war lord",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Webmail++", "Amazon Music", "djay", "trivago", "Munich Travel Guide", "Sweatcoin", "Fitness Buddy", "OpenTable", "Forks Knives", "Wish",
-        "Bank of the West", "conqueror", "war craft", "lord of rings", "sword fight","games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "quizlet", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango"
+        "linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted", "Toca Life",
+        "Microsoft Outlook", "Stay focused", "Travel List", "Sleep Tracker", "Starbucks", 
+        "amazon", "soundcloud", "netflix", "calculator","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
+        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
+        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -20,13 +22,22 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Business Pro"]
+        },
+        {
+			"apiname": "persona",
+			"values": ["Business Pro"]
         },
 		{
 			"apiname": "context_AppType",
+			"values": ["paid"]
+        },
+        {
+			"apiname": "AppType",
 			"values": ["paid"]
 		},
 		{
@@ -41,6 +52,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -63,18 +81,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Minecraft", 
-                         "docClickTitle" : "Minecraft", 
+                         "queryText" : "Game of Life", 
+                         "docClickTitle" : "The Game of Life", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                             "context_AppType":"paid",
+                             "AppType":"paid",
+                             "context_persona": "Business Pro",
+                             "persona": "Business Pro"
+                            } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/minecraft/id479516143?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/the-game-of-life/id1117405948?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Minecraft"
+                        "pagetitle" : "The Game of Life"
                     }
                 }
             ]
@@ -85,6 +108,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -107,18 +137,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "My Talking Pet", 
-                         "docClickTitle" : "My Talking Pet", 
+                         "queryText" : "LT.SOUNDS", 
+                         "docClickTitle" : "LT.SOUNDS", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/my-talking-pet/id662090840?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/lt-sounds/id995588605?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "My Talking Pet"
+                        "pagetitle" : "LT.SOUNDS"
                     }
                 }
             ]
@@ -129,6 +164,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -151,18 +193,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Afterlight", 
-                         "docClickTitle" : "Afterlight 2", 
+                         "queryText" : "8mm Vintage", 
+                         "docClickTitle" : "8mm Vintage Camera", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/afterlight-2/id1293122457?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/8mm-vintage-camera/id406541444?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Afterlight 2"
+                        "pagetitle" : "8mm Vintage Camera"
                     }
                 }
             ]
@@ -173,6 +220,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -195,18 +249,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "red onion", 
-                         "docClickTitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet", 
+                         "queryText" : "Construction Master", 
+                         "docClickTitle" : "Construction Master Pro", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/red-onion-tor-powered-web-browser-for-anonymous-browsing/id829739720?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/construction-master-pro/id370406446?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet"
+                        "pagetitle" : "Construction Master Pro"
                     }
                 }
             ]
@@ -217,6 +276,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -239,18 +305,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "promote army", 
-                         "docClickTitle" : "PROmote - Army Study Guide", 
+                         "queryText" : "Toca Life", 
+                         "docClickTitle" : "Toca Life: Vacation", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/promote-army-study-guide/id435352951?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/toca-life-vacation/id1114886979?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "PROmote - Army Study Guide"
+                        "pagetitle" : "Toca Life: Vacation"
                     }
                 }
             ]
@@ -261,6 +332,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -283,18 +361,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Webmail++", 
-                         "docClickTitle" : "Webmail++", 
+                         "queryText" : "Forest - Stay focused", 
+                         "docClickTitle" : "Forest - Stay focused", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/webmail/id392501588?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/forest-stay-focused/id866450515?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Webmail++"
+                        "pagetitle" : "Forest - Stay focused"
                     }
                 }
             ]
@@ -305,6 +388,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -327,18 +417,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "djay", 
-                         "docClickTitle" : "djay 2 for iPhone", 
+                         "queryText" : "Jive", 
+                         "docClickTitle" : "Jive for iOS", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/djay-2-for-iphone/id669198374?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/jive-for-ios/id911948088?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "djay 2 for iPhone"
+                        "pagetitle" : "Jive for iOS"
                     }
                 }
             ]
@@ -349,6 +444,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -371,18 +473,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Munich Travel Guide", 
-                         "docClickTitle" : "Munich Travel Guide (with Offline Maps) - mTrip", 
+                         "queryText" : "travel list", 
+                         "docClickTitle" : "Travel List – Trip Packing", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/munich-travel-guide-with-offline-maps-mtrip/id389779181?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/travel-list-trip-packing/id348737462?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Munich Travel Guide (with Offline Maps) - mTrip"
+                        "pagetitle" : "Travel List – Trip Packing"
                     }
                 }
             ]
@@ -393,6 +500,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -415,18 +529,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Fitness Buddy", 
-                         "docClickTitle" : "Fitness Buddy: Gym Workouts", 
+                         "queryText" : "sleep tracker", 
+                         "docClickTitle" : "Sleep Tracker: by Sleepmatic", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fitness-buddy-gym-workouts/id514780106?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/sleep-tracker-by-sleepmatic/id1179236591?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fitness Buddy: Gym Workouts"
+                        "pagetitle" : "Sleep Tracker: by Sleepmatic"
                     }
                 }
             ]
@@ -437,6 +556,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -459,18 +585,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "forks over knives", 
-                         "docClickTitle" : "Forks Over Knives - Healthy Recipes & Easy Meals", 
+                         "queryText" : "guides wine", 
+                         "docClickTitle" : "Approach Guides Wine Guide for iPhone", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/forks-over-knives-healthy-recipes-easy-meals/id903911740?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/approach-guides-wine-guide-for-iphone/id360561636?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Forks Over Knives - Healthy Recipes & Easy Meals"
+                        "pagetitle" : "Approach Guides Wine Guide for iPhone"
                     }
                 }
             ]
@@ -480,6 +611,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {

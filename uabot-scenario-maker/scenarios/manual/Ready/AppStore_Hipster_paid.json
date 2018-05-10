@@ -3,15 +3,12 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted",
-        "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", 
-        "Wine Guide", "amazon", "soundcloud", "netflix", "calculator", "games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
-        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "iMovie", "chrome", "spotify","imovie","Fitbit", "Google Docs", "beard", "culture","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
+        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
         "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
         "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
-        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "knives", 
-        "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -23,71 +20,43 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Business Pro"]
+			"values": ["Hipster"]
+        },
+        {
+			"apiname": "persona",
+			"values": ["Hipster"]
         },
 		{
 			"apiname": "context_AppType",
-			"values": ["free"]
+			"values": ["paid"]
+        },
+        {
+			"apiname": "AppType",
+			"values": ["paid"]
 		},
 		{
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=true",
+	"globalFilter":"@appisfree=false",
     "scenarios" :[
-        {
-			"name": "Search And Click - Social Networking",
-			"weight": 1,
-			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
-			"events": [
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                { "type" : "SearchAndClick", 
-                    "arguments" : {
-                         "queryText" : "LinkedIn", 
-                         "docClickTitle" : "LinkedIn", 
-                         "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
-                    } 
-                },
-                {
-                    "type" : "View",
-                    "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&uo=4",
-                        "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "LinkedIn"
-                    }
-                }
-            ]
-        },
         {
 			"name": "Search And Click - Games",
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -110,18 +79,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Helix Jump", 
-                         "docClickTitle" : "Helix Jump", 
+                         "queryText" : "Plague Inc", 
+                         "docClickTitle" : "Plague Inc.", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                             "context_AppType":"paid",
+                             "AppType":"paid",
+                             "context_persona": "Hipster",
+                             "persona": "Hipster"
+                            } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/helix-jump/id1345968745?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/plague-inc/id525818839?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Helix Jump"
+                        "pagetitle" : "Plague Inc."
                     }
                 }
             ]
@@ -132,6 +106,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -154,18 +135,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "PlayStation App", 
-                         "docClickTitle" : "PlayStation App", 
+                         "queryText" : "Procreate Pocket", 
+                         "docClickTitle" : "Procreate Pocket", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/playstation-app/id410896080?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/procreate-pocket/id916366645?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "PlayStation App"
+                        "pagetitle" : "Procreate Pocket"
                     }
                 }
             ]
@@ -176,6 +162,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -198,18 +191,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "musical.ly", 
-                         "docClickTitle" : "musical.ly", 
+                         "queryText" : "Facetune", 
+                         "docClickTitle" : "Facetune", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/musical-ly/id835599320?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/facetune/id606310581?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "musical.ly"
+                        "pagetitle" : "Facetune"
                     }
                 }
             ]
@@ -220,6 +218,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -242,18 +247,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Bitmoji", 
-                         "docClickTitle" : "Bitmoji", 
+                         "queryText" : "plague scenario creator", 
+                         "docClickTitle" : "Plague Inc: Scenario Creator", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bitmoji/id868077558?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/plague-inc-scenario-creator/id1113002956?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bitmoji"
+                        "pagetitle" : "Plague Inc: Scenario Creator"
                     }
                 }
             ]
@@ -264,6 +274,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -286,18 +303,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "iTunes U", 
-                         "docClickTitle" : "iTunes U", 
+                         "queryText" : "sky view", 
+                         "docClickTitle" : "SkyView® - Explore the Universe", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/itunes-u/id490217893?mt=8&uo=4",
+                        "pageuri" : "	https://itunes.apple.com/us/app/skyview-explore-the-universe/id404990064?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "iTunes U"
+                        "pagetitle" : "SkyView® - Explore the Universe"
                     }
                 }
             ]
@@ -308,6 +330,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -330,18 +359,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Best VPN Proxy", 
-                         "docClickTitle" : "Best VPN Proxy Betternet", 
+                         "queryText" : "airdrive", 
+                         "docClickTitle" : "AirDrive - Wireless Hard Drive", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/best-vpn-proxy-betternet/id946659216?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/airdrive-wireless-hard-drive/id781508900?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Best VPN Proxy Betternet"
+                        "pagetitle" : "AirDrive - Wireless Hard Drive"
                     }
                 }
             ]
@@ -352,6 +386,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -374,18 +415,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Amazon Music", 
-                         "docClickTitle" : "Amazon Music", 
+                         "queryText" : "mtronome", 
+                         "docClickTitle" : "TonalEnergy Tuner & Metronome", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           }  
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/tonalenergy-tuner-metronome/id497716362?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Amazon Music"
+                        "pagetitle" : "TonalEnergy Tuner & Metronome"
                     }
                 }
             ]
@@ -396,6 +442,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -418,18 +471,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "trivago", 
-                         "docClickTitle" : "trivago: Compare Hotels & Save", 
+                         "queryText" : "hong kong guide", 
+                         "docClickTitle" : "Hong Kong Travel Guide (with Offline Maps) - mTrip", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/trivago-compare-hotels-save/id376888389?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/hong-kong-travel-guide-with-offline-maps-mtrip/id425729197?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "trivago: Compare Hotels & Save"
+                        "pagetitle" : "Hong Kong Travel Guide (with Offline Maps) - mTrip"
                     }
                 }
             ]
@@ -440,6 +498,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -462,18 +527,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Sweatcoin", 
-                         "docClickTitle" : "Sweatcoin - Sweat for Coin", 
+                         "queryText" : "Keto Diet", 
+                         "docClickTitle" : "KetoDiet", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/sweatcoin-sweat-for-coin/id971023427?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/ketodiet/id575004207?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Sweatcoin - Sweat for Coin"
+                        "pagetitle" : "KetoDiet"
                     }
                 }
             ]
@@ -484,49 +554,12 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                { "type" : "SearchAndClick", 
+                    "type" : "SetOrigin",
                     "arguments" : {
-                         "queryText" : "OpenTable", 
-                         "docClickTitle" : "OpenTable", 
-                         "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
-                    } 
-                },
-                {
-                    "type" : "View",
-                    "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/opentable/id296581815?mt=8&uo=4",
-                        "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "OpenTable"
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
                     }
-                }
-            ]
-        },
-        {
-			"name": "Search And Click - Shopping",
-			"weight": 1,
-			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
-			"events": [
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -550,62 +583,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "wish", 
-                         "docClickTitle" : "Wish - Shopping Made Fun", 
+                         "queryText" : "fit men", 
+                         "docClickTitle" : "Fit Men Cook - Healthy Recipes", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                         "customData":{
+                            "context_AppType":"paid",
+                            "AppType":"paid",
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/wish-shopping-made-fun/id530621395?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/fit-men-cook-healthy-recipes/id980368562?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Wish - Shopping Made Fun"
-                    }
-                }
-            ]
-        },
-        {
-			"name": "Search And Click - Finance",
-			"weight": 1,
-			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
-			"events": [
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                {
-                    "type": "Search",
-                    "arguments": {
-                        "queryText": "",
-                        "goodQuery": true
-                    }
-                },
-                { "type" : "SearchAndClick", 
-                    "arguments" : {
-                         "queryText" : "Bank of the West", 
-                         "docClickTitle" : "Bank of the West", 
-                         "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
-                    } 
-                },
-                {
-                    "type" : "View",
-                    "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/bank-of-the-west/id947859969?mt=8&uo=4",
-                        "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Bank of the West"
+                        "pagetitle" : "Fit Men Cook - Healthy Recipes"
                     }
                 }
             ]
@@ -615,6 +609,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {

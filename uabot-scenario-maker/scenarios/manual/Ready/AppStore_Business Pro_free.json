@@ -3,15 +3,15 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-        "whatsapp", "minecraft", "playstation app", "facebook", "mario", 
-        "pokemon go", "vpn", "final fantasy", "plague", "world of goo", "gravity", "clash", "war",
-        "rpg", "action shooter", "iTunes U", "PROmote army", "Best VPN", "Amazon Music", "Wish","games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
-        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
+        "linkedin", "the game of life", "netflix", "Google Photos", "google","Construction Master", "ted",
+        "Microsoft Outlook", "Southwest Airlines", "Stay focused", "Travel List", "nike run", "Sleep Tracker", "Starbucks", 
+        "Wine Guide", "amazon", "soundcloud", "netflix", "calculator", "games", "amazon", "youtube","gmail","amazon prime", "google maps", "candy crush", "angry birds", "photo editor", "free games", "fam", "grindr", "roblox", "house party",
+        "music", "walmart", "video editor", "weather", "wine", "paypal", "solitaire", "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+        "party app", "group game", "party game", "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
         "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
         "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
-        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku",
-        "sword fight"
+        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "knives", 
+        "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
     ],
 	"randomBadQueries": [
         "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
@@ -23,26 +23,42 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Business Pro"]
+        },
+        {
+			"apiname": "persona",
+			"values": ["Business Pro"]
         },
 		{
 			"apiname": "context_AppType",
-			"values": ["paid"]
+			"values": ["free"]
+        },
+        {
+			"apiname": "AppType",
+			"values": ["free"]
 		},
 		{
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=false",
+	"globalFilter":"@appisfree=true",
     "scenarios" :[
         {
-			"name": "Search And Click - Games",
+			"name": "Search And Click - Social Networking",
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -66,18 +82,79 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Minecraft", 
-                         "docClickTitle" : "Minecraft", 
+                         "queryText" : "LinkedIn", 
+                         "docClickTitle" : "LinkedIn", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                             "context_AppType":"free",
+                             "AppType":"free", 
+                             "context_persona": "Business Pro",
+                             "persona": "Business Pro"
+                            } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/minecraft/id479516143?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/linkedin/id288429040?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Minecraft"
+                        "pagetitle" : "LinkedIn"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Games",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "Helix Jump", 
+                         "docClickTitle" : "Helix Jump", 
+                         "probability" : 0.75, 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/helix-jump/id1345968745?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Helix Jump"
                     }
                 }
             ]
@@ -88,6 +165,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -110,18 +194,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "My Talking Pet", 
-                         "docClickTitle" : "My Talking Pet", 
+                         "queryText" : "Netflix", 
+                         "docClickTitle" : "Netflix", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/my-talking-pet/id662090840?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/netflix/id363590051?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "My Talking Pet"
+                        "pagetitle" : "Netflix"
                     }
                 }
             ]
@@ -132,6 +221,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -154,18 +250,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Afterlight", 
-                         "docClickTitle" : "Afterlight 2", 
+                         "queryText" : "Google Photos", 
+                         "docClickTitle" : "Google Photos", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/afterlight-2/id1293122457?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/google-photos/id962194608?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Afterlight 2"
+                        "pagetitle" : "Google Photos"
                     }
                 }
             ]
@@ -176,6 +277,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -198,18 +306,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "red onion", 
-                         "docClickTitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet", 
+                         "queryText" : "Google", 
+                         "docClickTitle" : "Google", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/red-onion-tor-powered-web-browser-for-anonymous-browsing/id829739720?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/google/id284815942?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Red Onion - Tor-powered web browser for anonymous browsing and darknet"
+                        "pagetitle" : "Google"
                     }
                 }
             ]
@@ -220,6 +333,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -242,18 +362,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "promote army", 
-                         "docClickTitle" : "PROmote - Army Study Guide", 
+                         "queryText" : "TED", 
+                         "docClickTitle" : "TED", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/promote-army-study-guide/id435352951?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/ted/id376183339?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "PROmote - Army Study Guide"
+                        "pagetitle" : "TED"
                     }
                 }
             ]
@@ -264,6 +389,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -286,18 +418,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Webmail++", 
-                         "docClickTitle" : "Webmail++", 
+                         "queryText" : "Microsoft Outlook", 
+                         "docClickTitle" : "Microsoft Outlook", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/webmail/id392501588?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/microsoft-outlook/id951937596?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Webmail++"
+                        "pagetitle" : "Microsoft Outlook"
                     }
                 }
             ]
@@ -308,6 +445,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -330,18 +474,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "djay", 
-                         "docClickTitle" : "djay 2 for iPhone", 
+                         "queryText" : "SoundCloud", 
+                         "docClickTitle" : "SoundCloud - Music & Audio", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/djay-2-for-iphone/id669198374?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/amazon-music/id510855668?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "djay 2 for iPhone"
+                        "pagetitle" : "SoundCloud - Music & Audio"
                     }
                 }
             ]
@@ -352,6 +501,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -374,18 +530,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Munich Travel Guide", 
-                         "docClickTitle" : "Munich Travel Guide (with Offline Maps) - mTrip", 
+                         "queryText" : "Southwest Airlines", 
+                         "docClickTitle" : "Southwest Airlines", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/munich-travel-guide-with-offline-maps-mtrip/id389779181?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/southwest-airlines/id344542975?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Munich Travel Guide (with Offline Maps) - mTrip"
+                        "pagetitle" : "Southwest Airlines"
                     }
                 }
             ]
@@ -396,6 +557,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -418,18 +586,23 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "Fitness Buddy", 
-                         "docClickTitle" : "Fitness Buddy: Gym Workouts", 
+                         "queryText" : "nike run club", 
+                         "docClickTitle" : "Nike+ Run Club", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/fitness-buddy-gym-workouts/id514780106?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/nike-run-club/id387771637?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Fitness Buddy: Gym Workouts"
+                        "pagetitle" : "Nike+ Run Club"
                     }
                 }
             ]
@@ -440,6 +613,13 @@
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
                 {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
@@ -462,18 +642,130 @@
                 },
                 { "type" : "SearchAndClick", 
                     "arguments" : {
-                         "queryText" : "forks over knives", 
-                         "docClickTitle" : "Forks Over Knives - Healthy Recipes & Easy Meals", 
+                         "queryText" : "Starbucks", 
+                         "docClickTitle" : "Starbucks", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"paid", "context_persona": "Gamer"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
                     } 
                 },
                 {
                     "type" : "View",
                     "arguments" : {
-                        "pageuri" : "https://itunes.apple.com/us/app/forks-over-knives-healthy-recipes-easy-meals/id903911740?mt=8&uo=4",
+                        "pageuri" : "https://itunes.apple.com/us/app/starbucks/id331177714?mt=8&uo=4",
                         "pagereferrer" : "https://www.appstore.com",
-                        "pagetitle" : "Forks Over Knives - Healthy Recipes & Easy Meals"
+                        "pagetitle" : "Starbucks"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Shopping",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "amazon", 
+                         "docClickTitle" : "Amazon - Shopping made easy", 
+                         "probability" : 0.75, 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Business Pro",
+                            "persona": "Business Pro"
+                           } 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/amazon-shopping-made-easy/id297606951?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "Amazon - Shopping made easy"
+                    }
+                }
+            ]
+        },
+        {
+			"name": "Search And Click - Finance",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                { "type" : "SearchAndClick", 
+                    "arguments" : {
+                         "queryText" : "td bank", 
+                         "docClickTitle" : "TD Bank (US)", 
+                         "probability" : 0.75, 
+                         "customData":{"context_AppType":"free", "context_persona": "Business Pro"} 
+                    } 
+                },
+                {
+                    "type" : "View",
+                    "arguments" : {
+                        "pageuri" : "https://itunes.apple.com/us/app/td-bank-us/id382107453?mt=8&uo=4",
+                        "pagereferrer" : "https://www.appstore.com",
+                        "pagetitle" : "TD Bank (US)"
                     }
                 }
             ]
@@ -483,6 +775,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {

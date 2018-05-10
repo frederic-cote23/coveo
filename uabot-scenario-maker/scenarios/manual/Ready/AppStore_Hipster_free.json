@@ -21,13 +21,22 @@
     "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
 			"values": ["Hipster"]
         },
+        {
+			"apiname": "persona",
+			"values": ["Hipster"]
+        },
 		{
 			"apiname": "context_AppType",
+			"values": ["free"]
+        },
+        {
+			"apiname": "AppType",
 			"values": ["free"]
 		},
 		{
@@ -41,6 +50,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -67,7 +83,12 @@
                          "queryText" : "Kik", 
                          "docClickTitle" : "Kik", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                             "context_AppType":"free",
+                             "AppType":"free", 
+                             "context_persona": "Hipster",
+                             "persona": "Hipster"
+                            } 
                     } 
                 },
                 {
@@ -85,6 +106,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -111,7 +139,12 @@
                          "queryText" : "Evony", 
                          "docClickTitle" : "Evony", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -129,6 +162,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -155,7 +195,12 @@
                          "queryText" : "line webtoon daily", 
                          "docClickTitle" : "LINE WEBTOON - Daily Comics", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -173,6 +218,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -199,7 +251,12 @@
                          "queryText" : "iMovie", 
                          "docClickTitle" : "iMovie", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -217,6 +274,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -243,7 +307,12 @@
                          "queryText" : "Chrome", 
                          "docClickTitle" : "Google Chrome", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -261,6 +330,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -287,7 +363,12 @@
                          "queryText" : "Photomath", 
                          "docClickTitle" : "Photomath", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -305,6 +386,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -331,7 +419,12 @@
                          "queryText" : "Google Docs", 
                          "docClickTitle" : "Google Docs", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -349,6 +442,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -375,7 +475,12 @@
                          "queryText" : "spotify", 
                          "docClickTitle" : "Spotify Music", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -393,6 +498,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -419,7 +531,12 @@
                          "queryText" : "Lyft", 
                          "docClickTitle" : "Lyft", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -437,6 +554,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -463,7 +587,12 @@
                          "queryText" : "Fitbit", 
                          "docClickTitle" : "Fitbit", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -481,6 +610,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -507,7 +643,12 @@
                          "queryText" : "Grubhub", 
                          "docClickTitle" : "Grubhub – Order Food Delivery", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -525,6 +666,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -551,7 +699,12 @@
                          "queryText" : "PC Optimum", 
                          "docClickTitle" : "PC Optimum", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -569,6 +722,13 @@
 			"weight": 1,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
@@ -595,7 +755,12 @@
                          "queryText" : "hsbc", 
                          "docClickTitle" : "HSBC HK Mobile Banking", 
                          "probability" : 0.75, 
-                         "customData":{"context_AppType":"free", "context_persona": "Hipster"} 
+                         "customData":{
+                            "context_AppType":"free",
+                            "AppType":"free", 
+                            "context_persona": "Hipster",
+                            "persona": "Hipster"
+                           } 
                     } 
                 },
                 {
@@ -613,6 +778,13 @@
 			"weight": 7,
 			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
 			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
                 {
                     "type": "Search",
                     "arguments": {
