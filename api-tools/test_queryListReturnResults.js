@@ -48,7 +48,7 @@ async function test_query_list (access_token, organizationId, qList, aq,
   
         
 
-        if(searchResults.totalCount < 10){
+        if(searchResults.totalCount < 15){
             console.log(task.q+": "+searchResults.totalCount)
             badQuery.push(task.q)
         }
@@ -92,13 +92,14 @@ async function test_query_list (access_token, organizationId, qList, aq,
 
 const access_token = "xx367dddc5-086b-45d1-8083-d417116b6496";
 const organizationId = "fcotetrainingorg";
-const aq = "@appisfree=true";
+const aq = "@appisfree=false AND (@appcategory=Travel OR @appcategory=Food & Drink OR @appcategory=Navigation)";
 const fieldsToInclude = ["appisfree", "appcategory"];
 const firstResult = 0;
 const numberOfResults = 200;
 
 const qList = [ 
-"culture"
+  "Travel Guide", "restaurant", "booking", "trip", "uber", "map", "google maps", 
+  "travel", "city", "city guide", "japanese", "food", "road"
 ]
 
 test_query_list (access_token, organizationId, qList, aq, 

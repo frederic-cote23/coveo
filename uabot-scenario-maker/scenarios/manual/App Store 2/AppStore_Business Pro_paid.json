@@ -1,0 +1,918 @@
+{
+    "searchendpoint" : "https://platform.cloud.coveo.com/rest/search/",
+	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
+    "orgName": "fcotetrainingorg",
+	"randomGoodQueries": [ 
+		"linkedin", "the game of life", "Google Photos", "google", 
+		"Microsoft Outlook", "Stay focused", "Travel List",  
+		 "amazon", "calculator", "to do", "vpn", "private", "mail", "share"
+    ],
+	"randomBadQueries": [
+        "link in", "gam lf", "ggl", "nat flic", "micro soft out look", "trav el lst"
+    ],
+    "allowAnonymousVisits"	: true,
+    "anonymousThreshold" : 1,
+    "timeBetweenVisits": 2,
+    "timeBetweenActions": 1,
+    "pipeline": "default",
+    "defaultOriginLevel1": "Demo",
+    "randomCustomData": [
+		{
+			"apiname": "context_persona",
+			"values": ["Business Pro"]
+        },
+        {
+			"apiname": "persona",
+			"values": ["Business Pro"]
+        },
+        {
+			"apiname": "context_AppType",
+			"values": ["free"]
+		},
+		{
+			"apiname": "AppType",
+			"values": ["free"]
+		},
+		{
+			"apiname": "isbot", "values": ["true"]
+		}
+    ],
+	"globalFilter":"@appisfree=false AND @appcategory=Utilities OR @appcategory=Productivity",
+    "scenarios" :[
+        {
+			"name": "Random Good Query on the App Store Tab",
+			"weight": 1,
+			"useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36",
+			"events": [
+                {
+                    "type" : "SetOrigin",
+                    "arguments" : {
+                        "originLevel1" : "Demo",
+                        "originLevel2" : "App Store"
+                    }
+                },
+                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                }
+            ]
+        }
+    ]   
+}
