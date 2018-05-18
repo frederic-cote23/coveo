@@ -3,12 +3,12 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-		"minecraft", "mario", "super mario", "final fantasy", "world of goo", "plague", "clash", "war lord",  "star wars", "clash royale", "clash of clans", "pokemon go",
-		"magic the gathering", "dungeon and dragon", "rpg", "action shooter", "tower defender", "turret", "zombie", "plant zombie", "ninja", "playstation app", "candy crush", "angry birds", "love balls",
-		"marvel","group game", "party game", "puzzle", "brain game", "gravity"
+		"messenger", "decide now", "instagram", "pandora", "tinder", 
+		"Lose It!",  "Graphing Calculator",  "spotify", "pandora", "amazon music", "sound cloud", "twitter", "music", "shazam", "snapchat", "iTunes U", "ted", "khan academy", "facebook", "messenger",
+	   "skype", "emoji", "iMusic", "tumblr", "Google Classroom", "whatsapp", "study", "flash card", "review", "brain", "classroom", "college", "teacher", "tutor"
     ],
 	"randomBadQueries": [
-        "@minecraft", "mar io", "finm fantaisy", "world of poo", "pla uye", "dower tefender", "purret", "lombie", "minja", "play station natwork"
+		"@instagram", "deci, no", "pan door a", "tint her", "clas room", "coll hedge", "e mo jy", "snap bat"
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
@@ -19,11 +19,11 @@
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Student"]
         },
         {
 			"apiname": "persona",
-			"values": ["Gamer"]
+			"values": ["Student"]
         },
         {
 			"apiname": "context_AppType",
@@ -37,7 +37,7 @@
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=true AND @appcategory=Games",
+	"globalFilter":"@appisfree=true AND (@appcategory=Music OR @appcategory=Social Networking OR @appcategory=Education)",
     "scenarios" :[
         {
 			"name": "Random Good Query on the App Store Tab",

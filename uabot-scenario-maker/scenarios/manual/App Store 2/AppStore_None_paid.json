@@ -3,41 +3,53 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-		"minecraft", "mario", "super mario", "final fantasy", "world of goo", "plague", "clash", "war lord",  "star wars", "clash royale", "clash of clans", "pokemon go",
-		"magic the gathering", "dungeon and dragon", "rpg", "action shooter", "tower defender", "turret", "zombie", "plant zombie", "ninja", "playstation app", "candy crush", "angry birds", "love balls",
-		"marvel","group game", "party game", "puzzle", "brain game", "gravity"
+		"games", "Fitbit",  "beard",
+		"decide now", "Lose It!", "Todo", "Graphing Calculator", "solitaire", "amazon", "brain training", 
+		"free games", "house party", "video editor", "weather", "wine",
+		"trivia crack", "ebay", "games for free", "color switch",
+		"party app", "wish", "viber", "episode", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
+		"fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
+		"processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "seasonal", "celebrity", "dance", "car", 
+		"glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide",
+		"bank", "emoji", "travel guide", "flash",   "studio", "sudoku", 
+		"rpg", "action shooter", "Wish",
+		"sword fight", "war","Wish",
+		"sword fight", "Sleep Tracker","google home", 
+		"Vine Camera", "mac id","japanese", "Full Fitness",
+		"rise up", "heads up", "pinterest", "vine", "Star Walk",
+		"Audio Notes"
     ],
 	"randomBadQueries": [
-        "@minecraft", "mar io", "finm fantaisy", "world of poo", "pla uye", "dower tefender", "purret", "lombie", "minja", "play station natwork"
+        "mart ial", "how can i watcth that new anime show from netflix on my smartphone", "wine coll", "su o qu", "cel brity photos", "vibe r", "action chooter"
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
-    "timeBetweenVisits": 20,
+    "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
     "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["None"]
         },
         {
 			"apiname": "persona",
-			"values": ["Gamer"]
+			"values": ["None"]
         },
         {
 			"apiname": "context_AppType",
-			"values": ["free"]
+			"values": ["paid"]
 		},
 		{
 			"apiname": "AppType",
-			"values": ["free"]
+			"values": ["paid"]
 		},
 		{
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=true AND @appcategory=Games",
+	"globalFilter":"@appisfree=false AND @appcategory=Games",
     "scenarios" :[
         {
 			"name": "Random Good Query on the App Store Tab",

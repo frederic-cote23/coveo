@@ -92,14 +92,27 @@ async function test_query_list (access_token, organizationId, qList, aq,
 
 const access_token = "xx367dddc5-086b-45d1-8083-d417116b6496";
 const organizationId = "fcotetrainingorg";
-const aq = "@appisfree=false AND (@appcategory=Travel OR @appcategory=Food & Drink OR @appcategory=Navigation)";
+const aq = "@appisfree=false";
 const fieldsToInclude = ["appisfree", "appcategory"];
 const firstResult = 0;
 const numberOfResults = 200;
 
 const qList = [ 
-  "Travel Guide", "restaurant", "booking", "trip", "uber", "map", "google maps", 
-  "travel", "city", "city guide", "japanese", "food", "road"
+  "games", "Fitbit",  "beard",
+  "decide now", "Lose It!", "Todo", "Graphing Calculator", "solitaire", "amazon", "brain training", 
+  "free games", "house party", "video editor", "weather", "wine",
+  "trivia crack", "ebay", "games for free", "color switch",
+  "party app", "wish", "viber", "episode", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
+  "fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
+  "processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "seasonal", "celebrity", "dance", "car", 
+  "glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide",
+  "bank", "emoji", "travel guide", "flash",   "studio", "sudoku", "gravity",  
+  "rpg", "action shooter", "Wish",
+  "sword fight", "war","Wish",
+  "sword fight", "Sleep Tracker","google home", 
+  "Vine Camera", "mac id","japanese", "Full Fitness",
+  "rise up", "heads up", "pinterest", "vine", "Star Walk",
+  "Audio Notes"
 ]
 
 test_query_list (access_token, organizationId, qList, aq, 

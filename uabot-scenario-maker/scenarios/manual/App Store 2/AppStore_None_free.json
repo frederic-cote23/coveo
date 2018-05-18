@@ -3,27 +3,39 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-		"minecraft", "mario", "super mario", "final fantasy", "world of goo", "plague", "clash", "war lord",  "star wars", "clash royale", "clash of clans", "pokemon go",
-		"magic the gathering", "dungeon and dragon", "rpg", "action shooter", "tower defender", "turret", "zombie", "plant zombie", "ninja", "playstation app", "candy crush", "angry birds", "love balls",
-		"marvel","group game", "party game", "puzzle", "brain game", "gravity"
+		"games", "Keto Diet", "Fitbit",  "beard", "groupon","Inquire","Peak brain",
+		"decide now", "Lose It!", "Todo", "Graphing Calculator","solitaire", "amazon", "brain training", 
+		"free games", "fam", "roblox", "house party","walmart", "video editor", "weather", "wine", "paypal",
+		"hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+		"party app",  "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
+		"fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
+		"processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+		"glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide", "knives", 
+		"bank", "emoji", "travel guide", "flash",   "studio", "sudoku",   "my talking pet",
+		"rpg", "action shooter", "Fitness Buddy", "Wish",
+		"war craft", "lord of rings", "sword fight", "war","Wish",
+		"sword fight", "Construction Master", "Sleep Tracker","google home", 
+		"Vine Camera", "gif keyboard", "mac id","japanese", "Full Fitness","McDonald's", "wine collection",
+		"rise up", "heads up", "pinterest", "vine", "Star Walk",
+		"Audio Notes", "Paris Metro", "MyFitnessPal", "Amazon Go"
     ],
 	"randomBadQueries": [
-        "@minecraft", "mar io", "finm fantaisy", "world of poo", "pla uye", "dower tefender", "purret", "lombie", "minja", "play station natwork"
+       "mart ial", "how can i watcth that new anime show from netflix on my smartphone", "wine coll", "su o qu", "cel brity photos", "vibe r", "action chooter"
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
-    "timeBetweenVisits": 20,
+    "timeBetweenVisits": 2,
     "timeBetweenActions": 1,
     "pipeline": "default",
     "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["None"]
         },
         {
 			"apiname": "persona",
-			"values": ["Gamer"]
+			"values": ["None"]
         },
         {
 			"apiname": "context_AppType",

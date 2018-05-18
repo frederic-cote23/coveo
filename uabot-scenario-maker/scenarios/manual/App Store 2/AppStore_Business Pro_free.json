@@ -3,16 +3,16 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-		"linkedin", "the game of life", "netflix", "Google Photos", "google", 
-		"Microsoft Outlook", "Stay focused", "Travel List",  
-		 "amazon", "calculator", "to do", "vpn", "private", "mail", "share"
+		"linkedin", "the game of life", "Google drive", "google", 
+		"Microsoft Outlook", "Stay focused", "Travel List",  "office",
+		 "amazon", "calculator", "to do", "vpn", "private", "mail", "share", "chrome", "Sheets", "Google Docs", "gmail", "dropbox", "AdBlock", "Best VPN"
     ],
 	"randomBadQueries": [
         "link in", "gam lf", "ggl", "nat flic", "micro soft out look", "trav el lst"
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
-    "timeBetweenVisits": 2,
+    "timeBetweenVisits": 20,
     "timeBetweenActions": 1,
     "pipeline": "default",
     "defaultOriginLevel1": "Demo",
@@ -37,7 +37,7 @@
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=true AND @appcategory=Utilities OR @appcategory=Productivity",
+	"globalFilter":"@appisfree=true AND (@appcategory=Utilities OR @appcategory=Productivity)",
     "scenarios" :[
         {
 			"name": "Random Good Query on the App Store Tab",
@@ -50,6 +50,13 @@
                         "originLevel1" : "Demo",
                         "originLevel2" : "App Store"
                     }
+				},
+				{
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": false
+                    }
                 },
                 {
                     "type": "Search",
@@ -73,6 +80,99 @@
 						"offset": 15,
 						"probability": 0.65
 					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 12,
+						"probability": 0.55
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 9,
+						"probability": 0.45
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 7,
+						"probability": 0.35
+					}
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 5,
+						"probability": 0.25
+					}
+                },                {
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
+                },
+                {
+					"type": "Click",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+                {
+					"type": "View",
+					"arguments": {
+						"docNo": -1,
+						"offset": 15,
+						"probability": 0.65
+					}
+				},
+				{
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
                 },
                 {
 					"type": "Click",
@@ -433,6 +533,13 @@
 						"offset": 12,
 						"probability": 0.55
 					}
+				},
+				{
+                    "type": "Search",
+                    "arguments": {
+                        "queryText": "",
+                        "goodQuery": true
+                    }
                 },
                 {
 					"type": "Click",
@@ -503,92 +610,13 @@
 						"offset": 15,
 						"probability": 0.65
 					}
-                },
-                {
-					"type": "Click",
-					"arguments": {
-						"docNo": -1,
-						"offset": 12,
-						"probability": 0.55
-					}
 				},
-                {
-					"type": "View",
-					"arguments": {
-						"docNo": -1,
-						"offset": 12,
-						"probability": 0.55
-					}
-                },
-                {
-					"type": "Click",
-					"arguments": {
-						"docNo": -1,
-						"offset": 9,
-						"probability": 0.45
-					}
-				},
-                {
-					"type": "View",
-					"arguments": {
-						"docNo": -1,
-						"offset": 9,
-						"probability": 0.45
-					}
-                },
-                {
-					"type": "Click",
-					"arguments": {
-						"docNo": -1,
-						"offset": 7,
-						"probability": 0.35
-					}
-				},
-                {
-					"type": "View",
-					"arguments": {
-						"docNo": -1,
-						"offset": 7,
-						"probability": 0.35
-					}
-                },
-                {
-					"type": "Click",
-					"arguments": {
-						"docNo": -1,
-						"offset": 5,
-						"probability": 0.25
-					}
-				},
-                {
-					"type": "View",
-					"arguments": {
-						"docNo": -1,
-						"offset": 5,
-						"probability": 0.25
-					}
-                },                {
+				{
                     "type": "Search",
                     "arguments": {
                         "queryText": "",
                         "goodQuery": true
                     }
-                },
-                {
-					"type": "Click",
-					"arguments": {
-						"docNo": -1,
-						"offset": 15,
-						"probability": 0.65
-					}
-				},
-                {
-					"type": "View",
-					"arguments": {
-						"docNo": -1,
-						"offset": 15,
-						"probability": 0.65
-					}
                 },
                 {
 					"type": "Click",

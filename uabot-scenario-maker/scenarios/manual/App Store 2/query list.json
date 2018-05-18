@@ -12,13 +12,13 @@
     ],
 
 
-"Tech Geek_Free": [
+"Business Pro_Free": [
     "linkedin", "the game of life", "Google drive", "google", 
     "Microsoft Outlook", "Stay focused", "Travel List",  "office",
      "amazon", "calculator", "to do", "vpn", "private", "mail", "share", "chrome", "Sheets", "Google Docs", "gmail", "dropbox", "AdBlock", "Best VPN"
         ],
     
-"Tech Geek_Paid": [
+"Business Pro_Paid": [
     "Google drive", "google", 
     "Stay focused", "Travel List",  "office",
      "amazon", "calculator", "to do", "vpn", "private", "mail", "share", "chrome", "Sheets", "Google Docs", "gmail", "dropbox", "AdBlock", "Best VPN"
@@ -61,97 +61,45 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-"All_Good_Free": [
-"games", 
- 
-"Keto Diet", "Fitbit",  "beard", 
- "amazon prime video",
-"groupon", "Bank of America Mobile",
-"Inquire",  "Todo",
-"Peak brain",
- "decide now", "groupon", "Bank of America Mobile",
-    "Lose It!", "Inquire", "Todo", "Graphing Calculator", "Peak brain",
-
-"solitaire",
-
-"amazon",
-
- "brain training", 
-
-
-"free games", "fam", "grindr", "roblox", "house party",
-             "walmart", "video editor", "weather", "wine", "paypal",  "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
-            "party app",  "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
-            "fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
-            "processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
-            "glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide", "knives", 
-            "bank", "emoji", "travel guide", "flash",   "studio", "sudoku",   "my talking pet", "vpn",     "gravity",  
-            "rpg", "action shooter", "PROmote army","Fitness Buddy", "OpenTable", "Wish",
-             "war craft", "lord of rings", "sword fight","vpn",  "war", "PROmote army", "Best VPN","Wish",
-    "sword fight",
-
-
-    "Construction Master", "Southwest Airlines", "nike run", "Sleep Tracker",
-
-
-     "google home", "Vine Camera", "gif keyboard", "mac id","japanese", "Full Fitness","McDonald's", "wine collection",
-
-    "rise up", "heads up", "uber", "pinterest", "vine", "Star Walk",
+"None_Free": [
+    "games", "Keto Diet", "Fitbit",  "beard", "groupon","Inquire","Peak brain",
+    "decide now", "Lose It!", "Todo", "Graphing Calculator","solitaire", "amazon", "brain training", 
+    "free games", "fam", "roblox", "house party","walmart", "video editor", "weather", "wine", "paypal",
+    "hotspot shield", "trivia crack", "ebay", "telegram", "games for free", "color switch",
+    "party app",  "bumble", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
+    "fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
+    "processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
+    "glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide", "knives", 
+    "bank", "emoji", "travel guide", "flash",   "studio", "sudoku",   "my talking pet",
+    "rpg", "action shooter", "Fitness Buddy", "Wish",
+    "war craft", "lord of rings", "sword fight", "war","Wish",
+    "sword fight", "Construction Master", "Sleep Tracker","google home", 
+    "Vine Camera", "gif keyboard", "mac id","japanese", "Full Fitness","McDonald's", "wine collection",
+    "rise up", "heads up", "pinterest", "vine", "Star Walk",
     "Audio Notes", "Paris Metro", "MyFitnessPal", "Amazon Go"
-            ],
+],
 
-    "All_Good_Paid": [
-"games", "amazon", "youtube", "gmail", "google maps", "angry birds", "photo editor", "free games", "house party",
-        "music", "video editor", "weather", "wine", "paypal", "solitaire", "ebay", "telegram", "games for free", "color switch",
-        "party app", "group game", "party game", "wish", "viber", "episode", "tango", "video", "photo", "health", "gps", "map", "phone", "travel", "city", "subway", "news", "web", "protection",
-        "fitness", "martial", "combat", "action", "role play", "puzzle", "brain game", "brain training", "education", "restaurant", "famous", "heroe", "winner", "flag", "feeling", "imagine",
-        "processing", "city", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "wiki", "seasonal", "celebrity", "dance", "car", 
-        "glasses", "dream", "dream book", "book", "troll", "color", "road", "star wars", "travel guide", "bank", "emoji", "travel guide", "flash", "food", "delivery", "marvel", "studio", "sudoku"
-    ],
+"None_Paid": [
+    "games", "Fitbit",  "beard",
+    "decide now", "Lose It!", "Todo", "Graphing Calculator", "solitaire", "amazon", "brain training", 
+    "free games", "house party", "video editor", "weather", "wine",
+    "trivia crack", "ebay", "games for free", "color switch",
+    "party app", "wish", "viber", "episode", "video", "photo", "health", "gps",  "phone", "travel", "city", "subway", "news", "web", "protection",
+    "fitness", "martial", "combat", "action", "role play", "education",  "famous", "heroe", "winner", "flag", "feeling", "imagine",
+    "processing", "ghost", "add", "song", "theme", "background", "case", "fighting", "kingdom", "keys", "password", "seasonal", "celebrity", "dance", "car", 
+    "glasses", "dream", "dream book", "book", "troll", "color", "road",  "travel guide",
+    "bank", "emoji", "travel guide", "flash",   "studio", "sudoku", 
+    "rpg", "action shooter", "Wish",
+    "sword fight", "war","Wish",
+    "sword fight", "Sleep Tracker","google home", 
+    "Vine Camera", "mac id","japanese", "Full Fitness",
+    "rise up", "heads up", "pinterest", "vine", "Star Walk",
+    "Audio Notes"
+],
 
-    "All_Bad": [
+    "None_Bad": [
 "how can I watch new anime show from netflix on my iphone", "@instagram", "@snapchat", "@minecraft", 
             "lyft+free+ride", "uber+mylocation", "google earth+where I am", "siri, what is the mearning of life", "siri, how do I use the search function",
             "gmes", "mzon", "utub", "whine store", "wal+mart", "solitere", "pocketmon", "twit+ster", "goggle", "pan-door-a", "that music thing my grandson uses to listen to music"
-            ],
-
-
-
-
-
-
-
-
-            "Freelancer_Free":[
-                "skype", "google home", "Vine Camera", "gif keyboard", "mac id", "khan academy", "shazam",
-                    "tripAdvisor","japanese", "Full Fitness","McDonald's", "wine collection"
-                    ],
-                
-                "Freelancer_Paid":[
-                "skype", "google home", "Vine Camera", "gif", "mac id",
-                    "japanese", "Full Fitness", "wine collection"
-                        ],
-                
-                
-                
-                
-                "Social Media Addict_Free": [
-                "twitter", "rise up", "heads up", "hulu", "snapchat", "uber", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Google Classroom", "Star Walk", "Dropbox",
-                            "Audio Notes", "iMusic", "Paris Metro", "MyFitnessPal", "Amazon Go"
-                    ],
-                
-                "Social Media Addict_Paid": [
-                "twitter", "rise up", "heads up", "hulu", "snapchat", "tumblr", "pinterest", "dropbox", "vine", "AdBlock", "Star Walk", "Dropbox",
-                    "Audio Notes", "Amazon Go"
-                    ]
+            ]
 }

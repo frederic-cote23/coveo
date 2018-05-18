@@ -3,12 +3,11 @@
 	"analyticsendpoint" : "https://usageanalytics.coveo.com/rest/v15/analytics/",
     "orgName": "fcotetrainingorg",
 	"randomGoodQueries": [ 
-		"minecraft", "mario", "super mario", "final fantasy", "world of goo", "plague", "clash", "war lord",  "star wars", "clash royale", "clash of clans", "pokemon go",
-		"magic the gathering", "dungeon and dragon", "rpg", "action shooter", "tower defender", "turret", "zombie", "plant zombie", "ninja", "playstation app", "candy crush", "angry birds", "love balls",
-		"marvel","group game", "party game", "puzzle", "brain game", "gravity"
+		"imovie","photo", "photo editing", "youtube", "photo editor", 
+		"video", "video manager", "editor", "converter", "editing",  "dating", "hair", "stream", "streaming", "tv"
     ],
 	"randomBadQueries": [
-        "@minecraft", "mar io", "finm fantaisy", "world of poo", "pla uye", "dower tefender", "purret", "lombie", "minja", "play station natwork"
+        "cult", "net flick", "ulu", "editincg", "mag-a-zine", "date ing", "air"
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
@@ -19,25 +18,25 @@
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Gamer"]
+			"values": ["Hipster"]
         },
         {
 			"apiname": "persona",
-			"values": ["Gamer"]
+			"values": ["Hipster"]
         },
         {
 			"apiname": "context_AppType",
-			"values": ["free"]
+			"values": ["paid"]
 		},
 		{
 			"apiname": "AppType",
-			"values": ["free"]
+			"values": ["paid"]
 		},
 		{
 			"apiname": "isbot", "values": ["true"]
 		}
     ],
-	"globalFilter":"@appisfree=true AND @appcategory=Games",
+	"globalFilter":"@appisfree=false AND (@appcategory=Lifestyle OR @appcategory=Entertainment OR @appcategory=Photo & Video)",
     "scenarios" :[
         {
 			"name": "Random Good Query on the App Store Tab",
