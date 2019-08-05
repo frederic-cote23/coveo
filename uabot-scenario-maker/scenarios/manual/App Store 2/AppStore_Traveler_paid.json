@@ -11,18 +11,18 @@
     ],
     "allowAnonymousVisits"	: true,
     "anonymousThreshold" : 1,
-    "timeBetweenVisits": 2,
+    "timeBetweenVisits": 20,
     "timeBetweenActions": 1,
     "pipeline": "default",
     "defaultOriginLevel1": "Demo",
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Traveller"]
+			"values": ["Traveler"]
         },
         {
 			"apiname": "persona",
-			"values": ["Traveller"]
+			"values": ["Traveler"]
         },
         {
 			"apiname": "context_AppType",

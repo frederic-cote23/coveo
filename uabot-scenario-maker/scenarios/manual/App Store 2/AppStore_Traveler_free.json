@@ -18,11 +18,11 @@
     "randomCustomData": [
 		{
 			"apiname": "context_persona",
-			"values": ["Traveller"]
+			"values": ["Traveler"]
         },
         {
 			"apiname": "persona",
-			"values": ["Traveller"]
+			"values": ["Traveler"]
         },
         {
 			"apiname": "context_AppType",
